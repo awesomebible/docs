@@ -1,7 +1,7 @@
 Willkommen bei der Dokumentation für awesomeBible Projekte!
 ===================================
 
-Hier findest du die Dokumentation für `my.awesomeBible <https://codeberg.org/awesomeBible/my.awesomeBible>`_ `awesomeBible Verse <https://codeberg.org/awesomeBible/verse>`_.
+Hier findest du die Dokumentation für `my.awesomeBible <https://codeberg.org/awesomeBible/my.awesomeBible>`_ und `awesomeBible Verse <https://codeberg.org/awesomeBible/verse>`_.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -14,6 +14,17 @@ Contents
 --------
 
 .. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: awesomeBible Verse
 
-   usage
-   api
+   Installation <verse-install>
+   API <verse-api>
+   Mitmachen <verse-contribute>
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: my.awesomeBible
+
+   Setup der Entwicklungsumgebung <my-devsetup>

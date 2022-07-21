@@ -15,7 +15,7 @@ Contents
 
 .. toctree::
    :hidden:
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: awesomeBible Verse
 
    Installation <verse-install>
@@ -25,7 +25,7 @@ Contents
 
 .. toctree::
    :hidden:
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: my.awesomeBible
 
    Setup der Entwicklungsumgebung <my-devsetup>

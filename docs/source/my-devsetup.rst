@@ -31,7 +31,6 @@ wird zu:
 Jetzt müssen wir die `database.sqlite` erstellen:
 
 .. code-block:: bash
-    :caption: Code Blocks can have captions.
 
     $ touch database/database.sqlite
 
@@ -45,7 +44,7 @@ Und das Laravel [Database Migration](https://laravel.com/docs/9.x/migrations) Sk
 Abschließend müssen wir noch die `APP_KEY` Variable in der Env-Datei füllen:
 
 .. code-block:: bash
-        
+
     $ php artisan key:generate
 
 

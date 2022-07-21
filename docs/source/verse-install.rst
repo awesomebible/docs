@@ -18,8 +18,11 @@ zu installieren – wenn dies dein Hosting Provider zur Verfügung stellt.
 Ansonsten einfach in einen seperaten Ordner. Wenn auf deinedomain.de/ 
 z.B. eine Wordress Installation ist, dann kannst du die Dateien einfach in einem Unterverzeichnis der selben Domain ablegen. (Zum Beispiel: deinedomain.de/verse/)
 
-### Bilder selbst hosten
+Bilder selbst hosten
+=============
+
 awesomeBible Verse besteht aus zwei Teilen:
+
 1. Das Programm
 2. Die Bilder
 

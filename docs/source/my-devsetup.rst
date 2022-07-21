@@ -9,34 +9,44 @@ Nachdem du das Git-Repository gecloned hast, kannst du mit folgenden Befehlen di
 $ npm install
 $ composer install
 
-Anschließend musst du eine `.env`-Datei anlegen. Kopiere die `.env.example`-Datei und passe folgendes an:::
+Anschließend musst du eine `.env`-Datei anlegen. Kopiere die `.env.example`-Datei und passe folgendes an:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=
+.. code-block:: env
 
-
-wird zu:::
-
-DB_CONNECTION=sqlite
-DB_DATABASE="path/to/database.sqlite"
-
-Jetzt müssen wir die `database.sqlite` erstellen:::
-
-bash 
-$ touch database/database.sqlite
-
-Und das Laravel [Database Migration](https://laravel.com/docs/9.x/migrations) Skript ausführen:::
-bash
-$ php artisan migrate
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=laravel
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 
-Abschließend müssen wir noch die `APP_KEY` Variable in der Env-Datei füllen:::
+wird zu:
 
-$ php artisan key:generate
+.. code-block:: env
+
+    DB_CONNECTION=sqlite
+    DB_DATABASE="pfad/zur/database.sqlite"
+
+Jetzt müssen wir die `database.sqlite` erstellen:
+
+.. code-block:: bash
+    :caption: Code Blocks can have captions.
+
+    $ touch database/database.sqlite
+
+Und das Laravel [Database Migration](https://laravel.com/docs/9.x/migrations) Skript ausführen:
+
+.. code-block:: bash
+
+    $ php artisan migrate
+
+
+Abschließend müssen wir noch die `APP_KEY` Variable in der Env-Datei füllen:
+
+.. code-block:: bash
+        
+    $ php artisan key:generate
 
 
 Schlussendlich lässt sich die App starten in dem man in einem Terminal-Fenster `npm run start` und in einem anderen `php artisan serve` ausführt.

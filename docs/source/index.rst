@@ -8,7 +8,7 @@ how to :ref:`installation` the project.
 
 .. note::
 
-   Diese Dokumentation ist aktuell noch ein Work-in-Progress.
+   Diese Dokumentation ist aktuell noch ein Work-in-Progress, aber bestehende und neue Dokumentation wird nach und nach hier hin verschoben.
 
 Contents
 --------

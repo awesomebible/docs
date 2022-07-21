@@ -13,10 +13,10 @@ Anforderungen
 1. Öffne den FTP Client deiner Wahl und verbinde dich mit deinem Server.
 2. Navigiere in das Verzeichnis wo du awesomeBible Verse haben möchtest und lade nun den Inhalt der verse.zip-Datei hoch.
 
-Empfohlen ist, awesomeBible Verse auf einer Subdomain z.B. verse.deinedomain.de 
+Empfohlen ist, awesomeBible Verse auf einer Subdomain z.B. `verse.deinedomain.de``
 zu installieren – wenn dies dein Hosting Provider zur Verfügung stellt. 
-Ansonsten einfach in einen seperaten Ordner. Wenn auf deinedomain.de/ 
-z.B. eine Wordress Installation ist, dann kannst du die Dateien einfach in einem Unterverzeichnis der selben Domain ablegen. (Zum Beispiel: deinedomain.de/verse/)
+Ansonsten einfach in einen seperaten Ordner. Wenn auf `deinedomain.de`
+z.B. eine Wordress Installation ist, dann kannst du die Dateien einfach in einem Unterverzeichnis der selben Domain ablegen. (Zum Beispiel: `deinedomain.de/verse/`)
 
 Bilder selbst hosten
 =============
@@ -31,7 +31,8 @@ Das Programm haben wir gerade auf deinem Server installiert. Standardmäßig ben
 Um Last von dem einen Server zu nehmen, und zu verhindern dass wenn verse.awesomebible.de down ist alle Verse Installationen nicht mehr funktionieren, sollte man wenn möglich die Bilder ebenfalls selbst hosten.
 
 Die Bilder herunterladen:
-- Gehe zu `Versbilder.md <https://codeberg.org/awesomeBible/verse/src/branch/main/Versbilder.md>` und lade die passende Datei herunter. (Sortiert nach Jahreszahlen)
+
+- Gehe zu `Versbilder.md <https://codeberg.org/awesomeBible/verse/src/branch/main/Versbilder.md>`_ und lade die passende Datei herunter. (Sortiert nach Jahreszahlen)
 
 Einfach die ZIP-Datei herunterladen herunterladen und entpacken.
 

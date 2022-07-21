@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'awesomeBible Docs'
 copyright = '2022, awesomeBible'
 author = 'awesomeBible'
 

@@ -19,7 +19,8 @@ Contents
    :caption: awesomeBible Verse
 
    Installation <verse-install>
-   API <verse-api>
+   Verse.js <verse-browser>
+   Öffentliche API <verse-public-api>
    Mitmachen <verse-contribute>
 
 .. toctree::

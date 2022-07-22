@@ -1,6 +1,8 @@
 Willkommen bei der Dokumentation für awesomeBible Projekte!
 ===================================
 
+.. image:: _static/images/logo-wordmark_gradient.svg
+
 Hier findest du die Dokumentation für `my.awesomeBible <https://codeberg.org/awesomeBible/my.awesomeBible>`_ und `awesomeBible Verse <https://codeberg.org/awesomeBible/verse>`_.
 
 Check out the :doc:`usage` section for further information, including
@@ -10,13 +12,11 @@ how to :ref:`installation` the project.
 
    Diese Dokumentation ist aktuell noch ein Work-in-Progress, aber bestehende und neue Dokumentation wird nach und nach hier hin verschoben.
 
-Contents
---------
-
 .. toctree::
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: awesomeBible Verse
+   :glob:
 
    Installation <verse-install>
    Verse.js <verse-browser>
@@ -25,7 +25,8 @@ Contents
 
 .. toctree::
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: my.awesomeBible
+   :glob:
 
    Setup der Entwicklungsumgebung <my-devsetup>

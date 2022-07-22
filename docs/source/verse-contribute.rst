@@ -22,7 +22,8 @@ Ein Versbild hinzufügen
 
 Um ein Versbild hinzuzufügen, offne ein Issue in dem `Verse Repository <https://codeberg.org/awesomeBible/verse/issues/new?template=bilder_hinzuf%c3%bcgen.md>`-.
 
-# Code beisteuern 🛠
+Code beisteuern 🛠
+=========
 
 Wenn du Features hinzufügen willst, oder einfach nur meinen schrecklichen Code reparieren willst, gerne!
 

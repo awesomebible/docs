@@ -39,7 +39,7 @@
   
   /* header items - icon */
   .wy-menu-vertical > p::before {
-    content: url("../images/icn-rocket.svg");
+    content: url("../images/menu-arrow.svg");
     margin-left: -0.1618em;
     width: 30px;
     float: left;
@@ -53,14 +53,14 @@
   
   /* menu items - hover */
   .wy-menu-vertical a:active {
-    background-color: #e2001a;
+    background-color: #0D62FF;
     cursor: pointer;
     color: #fff;
   }
   
   /* search box */
   .wy-side-nav-search input[type="text"] {
-    border-color: #84000f;
+    border-color: #00328F;
   }
   
   /* make side navigation scrollable  */

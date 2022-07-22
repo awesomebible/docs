@@ -20,7 +20,7 @@ Damit ein Versbild hinzugefügt werden kann, muss es mehrere Bedingungen erfüll
 Ein Versbild hinzufügen
 =========
 
-Um ein Versbild hinzuzufügen, offne ein Issue in dem `Verse Repository <https://codeberg.org/awesomeBible/verse/issues/new?template=bilder_hinzuf%c3%bcgen.md>`-.
+Um ein Versbild hinzuzufügen, offne ein Issue in dem `Verse Repository <https://codeberg.org/awesomeBible/verse/issues/new?template=bilder_hinzuf%c3%bcgen.md>`_.
 
 Code beisteuern 🛠
 =========

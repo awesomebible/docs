@@ -1,4 +1,14 @@
   /* --- Navigation / Sidebar ------------------------------------------------- */
+  /* title image */
+  .wy-side-nav-search {
+        padding-top: 170px;
+        background-image: url("../images/logo-wordmark_gradient.svg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-color: #222222;
+        background-position-x: 1.8em;
+  }
+  
   /* nav aside */
   .wy-menu-vertical {
     margin: 1rem 0;
@@ -8,11 +18,6 @@
   .wy-menu-vertical > p {
     margin: 1rem;
     color: #999999;
-  }
-  
-  /* header items - icon */
-  .wy-menu-vertical > p::before {
-    content: url("../images/menu-arrow.svg");
   }
   
   /* menu items */

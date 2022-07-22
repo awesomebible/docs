@@ -13,10 +13,6 @@
   /* header items - icon */
   .wy-menu-vertical > p::before {
     content: url("../images/menu-arrow.svg");
-    margin-left: -0.1618em;
-    width: 30px;
-    float: left;
-    padding: 0.1618em;
   }
   
   /* menu items */

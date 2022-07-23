@@ -1,9 +1,11 @@
 Verse.js Setup
 ===================================
-Füge das Verse.js Skript am Ende des Dokuments ein. Dazu kannst du folgenden HTML-Tag benutzen, um das Skript von dem von uns zur Verfügung gestellten CDN zu laden:
+Füge das Verse.js Skript am Ende des Dokuments ein.
+Dazu solltest du ein Script-Tag mit einem `Defer Attribut <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-defer>`_ benutzen.
 
-.. code-block:: html
-    <script defer src="https://verse.cdn.awesomebible.de/browser.js"></script>
+Wir hosten *verse.js* auf einem CDN, damit man es einfach einbinden kann.
+
+Die Quelle des Skript-Tags sollte auf `https://verse.cdn.awesomebible.de/browser.js` zeigen.
 
 Da wo das Versbild erscheinen soll, füge ein Image-Tag mit der Klasse „awb-verse“ ein.
 

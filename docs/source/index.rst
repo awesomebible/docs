@@ -4,7 +4,7 @@ Hier kannst du die Dokumentation für `my.awesomeBible <https://codeberg.org/awe
 
 .. image:: _static/images/logo-wordmark_gradient.svg
 
-Die Dokumentation ist `open source <https://github.com/awesomebible/docs/>`_. Das Hosting wird großzügigerweise von `Read the Docs <https://readthedocs.org>` zur Verfügung gestellt.
+Die Dokumentation ist `open source <https://github.com/awesomebible/docs/>`_. Das Hosting wird großzügigerweise von `Read the Docs <https://readthedocs.org>`_ zur Verfügung gestellt.
 
 .. note::
 

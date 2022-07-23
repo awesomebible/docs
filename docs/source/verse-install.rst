@@ -6,7 +6,7 @@ Anforderungen
 
 - PHP Server
 - FTP Server / Zugang
-- FTP Client: `Filezilla <https://filezilla-project.org/>`_, `WinSCP <https://winscp.net/eng/docs/lang:de>`:
+- FTP Client: `Filezilla <https://filezilla-project.org/>`_, `WinSCP <https://winscp.net/eng/docs/lang:de>`_:
 
 1. Lade awesomeBible Verse herunter.
 - Gehe zum `aktuellen Release von awesomeBible Verse <https://codeberg.org/awesomeBible/verse/releases/latest>`_ und lade die Quelltext Zip-Datei herunter.

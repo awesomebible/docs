@@ -5,9 +5,10 @@ Um das Laravelprojekt zu starten, brauchst du `Nodejs <https://nodejs.org>`_, `P
 
 Nachdem du das Git-Repository gecloned hast, kannst du mit folgenden Befehlen die benötigten Abhängigkeiten installieren:
 
+.. code-block:: console
 
-$ npm install
-$ composer install
+    $ npm install
+    $ composer install
 
 Anschließend musst du eine `.env`-Datei anlegen. Kopiere die `.env.example`-Datei und passe folgendes an:
 
@@ -30,20 +31,20 @@ wird zu:
 
 Jetzt müssen wir die `database.sqlite` erstellen:
 
-.. code-block:: bash
+.. code-block:: console
 
     $ touch database/database.sqlite
 
 Und das Laravel `Database Migration <https://laravel.com/docs/9.x/migrations>`_ Skript ausführen:
 
-.. code-block:: bash
+.. code-block:: console
 
     $ php artisan migrate
 
 
 Abschließend müssen wir noch die `APP_KEY` Variable in der Env-Datei füllen:
 
-.. code-block:: bash
+.. code-block:: console
 
     $ php artisan key:generate
 

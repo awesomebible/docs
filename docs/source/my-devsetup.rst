@@ -3,7 +3,7 @@ Setup der Entwicklungsumgebung
 
 Um das Laravelprojekt zu starten, brauchst du `Nodejs <https://nodejs.org>`_, `PHP <https://php.net>`_ und `Composer <https://getcomposer.org>`_. (=> Siehe `Laravel Quickstart Guide <https://laravel.com/docs/9.x/installation>`_)
 
-Nachdem du das Git-Repository gecloned hast, kannst du mit folgenden Befehlen die benötigten Abhängigkeiten installieren:::
+Nachdem du das Git-Repository gecloned hast, kannst du mit folgenden Befehlen die benötigten Abhängigkeiten installieren:
 
 
 $ npm install
@@ -34,7 +34,7 @@ Jetzt müssen wir die `database.sqlite` erstellen:
 
     $ touch database/database.sqlite
 
-Und das Laravel [Database Migration](https://laravel.com/docs/9.x/migrations) Skript ausführen:
+Und das Laravel `Database Migration <https://laravel.com/docs/9.x/migrations>`_ Skript ausführen:
 
 .. code-block:: bash
 

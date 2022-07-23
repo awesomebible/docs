@@ -1,12 +1,10 @@
 Willkommen bei der Dokumentation für awesomeBible Projekte!
 ===================================
+Hier kannst du die Dokumentation für `my.awesomeBible <https://codeberg.org/awesomeBible/my.awesomeBible>`_ und `awesomeBible Verse <https://codeberg.org/awesomeBible/verse>`_ finden.
 
 .. image:: _static/images/logo-wordmark_gradient.svg
 
-Hier findest du die Dokumentation für `my.awesomeBible <https://codeberg.org/awesomeBible/my.awesomeBible>`_ und `awesomeBible Verse <https://codeberg.org/awesomeBible/verse>`_.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Die Dokumentation ist `open source <https://github.com/awesomebible/docs/>`_. Das Hosting wird großzügigerweise von `Read the Docs <https://readthedocs.org>` zur Verfügung gestellt.
 
 .. note::
 

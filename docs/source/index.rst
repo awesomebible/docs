@@ -11,20 +11,14 @@ Die Dokumentation ist `open source <https://github.com/awesomebible/docs/>`_. Da
    Diese Dokumentation ist aktuell noch ein Work-in-Progress, aber bestehende und neue Dokumentation wird nach und nach hier hin verschoben.
 
 .. toctree::
-   :hidden:
    :maxdepth: 1
-   :caption: awesomeBible Verse
-   :glob:
+   :caption: Verse
+   :name: sec-general
 
-   Installation <verse-install>
-   Verse.js <verse-browser>
-   Öffentliche API <verse-public-api>
-   Mitmachen <verse-contribute>
+   verse/index
 
 .. toctree::
-   :hidden:
    :maxdepth: 1
    :caption: my.awesomeBible
-   :glob:
 
-   Setup der Entwicklungsumgebung <my-devsetup>
+   my/index

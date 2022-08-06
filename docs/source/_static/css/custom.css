@@ -1,4 +1,14 @@
   /* --- Navigation / Sidebar ------------------------------------------------- */
+/* title image */
+.wy-side-nav-search {
+  padding-top: 170px;
+  background-image: url("../images/logomark_circle.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #222222;
+  background-position-x: 1.8em;
+}
+
   .wy-side-nav-search {
         background-color: #222222;
   }

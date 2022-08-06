@@ -30,12 +30,11 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_logo = "images/logomark_circle.png"
 
 html_css_files = [
     "css/custom.css",
 ]
-
-html_logo = "images/logo-wordmark_gradient.svg"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

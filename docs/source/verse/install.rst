@@ -41,13 +41,13 @@ Den Inhalt kann man jetzt in einen Storage-Bucket oder auf einen Webserver hochl
 Jetzt müssen wir nur noch unsere Verse-Installation so anpassen, dass sie die Bilder aus unserem Storage-Bucket läd.
 Dazu müssen wir die ``index.php`` Datei auf unserem Server anpassen.
 
-.. image:: _static/images/verse-install-filelist.png
+.. image:: img/verse-install-filelist.png
 
 Lade die Datei herunter und öffne sie in einem Texteditor:
 
 Dort musst du "https://verse.awesomebible.de/img/" finden und es mit der URL wo du die Bilder hochgeladen hast austauschen. (Zum Beispiel dein Storage-Bucket.)
 
-.. image:: _static/images/verse-install-imagelocation.png
+.. image:: img/verse-install-imagelocation.png
 
 Dann kannst du die Datei wieder speichern und hochladen.
 

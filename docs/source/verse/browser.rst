@@ -14,4 +14,4 @@ Da wo das Versbild erscheinen soll, füge ein Image-Tag mit der Klasse „awb-ve
 
 Das Endergebnis sieht dann so, oder so ähnlich aus:
 
-.. image:: _static/images/versejs-example.png
+.. image:: img/versejs-example.png

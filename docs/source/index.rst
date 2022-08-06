@@ -13,7 +13,6 @@ Die Dokumentation ist `open source <https://github.com/awesomebible/docs/>`_. Da
 .. toctree::
    :maxdepth: 1
    :caption: Verse
-   :name: sec-general
 
    verse/index
 

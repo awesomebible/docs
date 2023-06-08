@@ -1,27 +1,35 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import image from '@astrojs/image';
+
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-    starlight({
-      title: 'My Docs',
-      social: {
-        github: 'https://github.com/withastro/starlight',
-      },
-      sidebar: [
-        {
-          label: 'Guides',
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: 'Example Guide', link: '/guides/example/' },
-          ],
-        },
-        {
-          label: 'Reference',
-          autogenerate: { directory: 'reference' },
-        },
-      ],
-    }),
-  ],
+  integrations: [starlight({
+    title: 'awesomeBible Docs',
+    customCss: ['/src/assets/custom-styles.css'],
+    social: {
+      discord: 'https://astro.build/chat',
+      github: 'https://github.com/awesomebible/docs',
+      mastodon: 'https://youthweb.social/@awesomebible',
+    },
+    sidebar: [{
+      label: 'Verse',
+      items: [
+      // Each item here is one entry in the navigation menu.
+      {
+        label: 'Installation',
+        link: '/verse/installation/'
+      }]
+    }, {
+      label: 'my.awesomeBible',
+      items: [{
+        label: 'Übersicht',
+        link: '/myawesomebible/'
+      }]
+    }],
+  }),
+  image({
+    serviceEntryPoint: '@astrojs/image/sharp'
+  })]
 });

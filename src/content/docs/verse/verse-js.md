@@ -1,0 +1,51 @@
+---
+title: Javascript Bibliothek
+description: A reference page in my new Starlight docs site.
+---
+Um die Javascript Bibliothek zu nutzen, füge folgenden Skript-Tag in dein Dokument ein
+
+```javascript
+<script src="https://cdn.jsdelivr.net/npm/@awesomebible/verse-js@1.0.0/index.js"></script>
+```
+
+oder installiere das NPM-Paket:
+
+=== "npm"
+    ```bash
+    npm install @awesomebible/verse-js
+    ```
+
+=== "Yarn"
+    ```bash
+    yarn add @awesomebible/verse-js
+    ```
+
+=== "pnpm"
+    ```bash
+    pnpm install @awesomebible/verse-js
+    ```
+
+Jetzt musst du die Funktion nur noch importieren:
+```javascript
+import { VerseReplace } from '@awesomebible/verse-js';
+
+```
+
+Füge da wo das Versbild erscheinen soll, ein Image-Tag mit der Klasse „awb-verse“ ein.
+
+```html
+<img class="awb-verse">
+```
+
+Ganz unten im Dokument muss die ``verseReplace()`` Funktion aufgerufen werden:
+
+```html
+<script defer>
+    verseReplace("https://verse.awesomebible.de/img/");
+</script>
+
+```
+
+!!! tip "Anpassen des Bildpfades"
+    Der Server von dem die Bilder geladen werden, kann durch die `versePath` Variable angepasst werden.
+    Der Pfad muss das Protokoll (https://), die Domain und den Pfad zum Bilderverzeichnis enthalten.

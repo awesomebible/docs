@@ -9,7 +9,7 @@ export default defineConfig({
     title: 'awesomeBible Docs',
     customCss: ['/src/assets/custom-styles.css'],
     social: {
-      discord: 'https://astro.build/chat',
+      discord: 'https://discord.awesomebible.de',
       github: 'https://github.com/awesomebible/docs',
       mastodon: 'https://youthweb.social/@awesomebible',
     },

@@ -15,17 +15,12 @@ export default defineConfig({
     },
     sidebar: [{
       label: 'Verse',
-      items: [
-      // Each item here is one entry in the navigation menu.
-      {
-        label: 'Installation',
-        link: '/verse/installation/'
-      }]
+      autogenerate: { directory: 'verse' },
     }, {
       label: 'my.awesomeBible',
       items: [{
         label: 'Übersicht',
-        link: '/myawesomebible/'
+        link: '/myawesomebible/',
       }]
     }],
   }),

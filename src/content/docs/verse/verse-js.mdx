@@ -2,6 +2,8 @@
 title: Javascript Bibliothek
 description: A reference page in my new Starlight docs site.
 ---
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
 Um die Javascript Bibliothek zu nutzen, füge folgenden Skript-Tag in dein Dokument ein
 
 ```javascript
@@ -10,20 +12,25 @@ Um die Javascript Bibliothek zu nutzen, füge folgenden Skript-Tag in dein Dokum
 
 oder installiere das NPM-Paket:
 
-=== "npm"
-    ```bash
-    npm install @awesomebible/verse-js
-    ```
+<Tabs>
+    <TabItem label="npm">
+        ```bash
+        npm install @awesomebible/verse-js
+        ```
+    </TabItem>
 
-=== "Yarn"
-    ```bash
-    yarn add @awesomebible/verse-js
-    ```
+    <TabItem label="Yarn">
+        ```bash
+        yarn add @awesomebible/verse-js
+        ```
+    </TabItem>
 
-=== "pnpm"
-    ```bash
-    pnpm install @awesomebible/verse-js
-    ```
+    <TabItem label="pnpm">
+        ```bash
+        pnpm install @awesomebible/verse-js
+        ```
+    </TabItem>
+</Tabs>
 
 Jetzt musst du die Funktion nur noch importieren:
 ```javascript
@@ -46,6 +53,7 @@ Ganz unten im Dokument muss die ``verseReplace()`` Funktion aufgerufen werden:
 
 ```
 
-!!! tip "Anpassen des Bildpfades"
-    Der Server von dem die Bilder geladen werden, kann durch die `versePath` Variable angepasst werden.
-    Der Pfad muss das Protokoll (https://), die Domain und den Pfad zum Bilderverzeichnis enthalten.
+:::note
+Der Server von dem die Bilder geladen werden, kann durch die `versePath` Variable angepasst werden.
+Der Pfad muss das Protokoll (https://), die Domain und den Pfad zum Bilderverzeichnis enthalten.
+:::

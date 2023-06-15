@@ -26,5 +26,6 @@ export default defineConfig({
   }),
   image({
     serviceEntryPoint: '@astrojs/image/sharp'
-  })]
+  })],
+  experimental: { assets: true },
 });

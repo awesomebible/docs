@@ -16,11 +16,19 @@ export default defineConfig({
     sidebar: [{
       label: 'Verse',
       autogenerate: { directory: 'verse' },
-    }, {
+    }, 
+    {
       label: 'my.awesomeBible',
       items: [{
         label: 'Übersicht',
         link: '/myawesomebible/',
+      }]
+    },
+    {
+      label: 'awesomeBible',
+      items: [{
+        label: 'Branding',
+        link: '/branding/',
       }]
     }],
   }),

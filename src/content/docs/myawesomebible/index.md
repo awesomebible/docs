@@ -1,6 +1,6 @@
 ---
 title: Übersicht
-description: A reference page in my new Starlight docs site.
+description: Eine Übersicht von my.awesomeBible
 ---
 > Mit my.awesomeBible beginnt eine neue Generation der Bibelarbeit. *Deine* neue Generation der Bibelarbeit.
 

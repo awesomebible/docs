@@ -23,6 +23,10 @@ export default defineConfig({
       },
     ],
 
+  editLink: {
+    baseUrl: 'https://github.com/awesomebible/docs/edit/main/',
+  },
+
     social: {
       discord: 'https://discord.awesomebible.de',
       github: 'https://github.com/awesomebible/docs',

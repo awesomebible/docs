@@ -7,7 +7,11 @@ const site = 'https://docs.awesomebible.de/';
 export default defineConfig({
   integrations: [starlight({
     title: 'awesomeBible Docs',
-    customCss: ['/src/assets/custom-styles.css'],
+    customCss: [
+      '@fontsource-variable/inter',
+      '@fontsource-variable/jetbrains-mono',
+      '/src/assets/custom-styles.css',
+    ],
     head: [
       {
         tag: 'meta',

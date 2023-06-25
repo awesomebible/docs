@@ -4,7 +4,7 @@ import image from '@astrojs/image';
 
 const site = 'https://docs.awesomebible.de/';
 // https://astro.build/config
-export default defineConfig({
+export default defineConfig({  
   integrations: [starlight({
     title: 'awesomeBible Docs',
     customCss: [
@@ -26,7 +26,6 @@ export default defineConfig({
   editLink: {
     baseUrl: 'https://github.com/awesomebible/docs/edit/main/',
   },
-  site: 'https://docs.awesomebible.de',
     social: {
       discord: 'https://discord.awesomebible.de',
       github: 'https://github.com/awesomebible/docs',
@@ -57,4 +56,5 @@ export default defineConfig({
   sitemap()
 ],
   experimental: { assets: true },
+  site: 'https://docs.awesomebible.de',
 });

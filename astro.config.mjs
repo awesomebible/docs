@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
 
 const site = 'https://docs.awesomebible.de/';
@@ -54,8 +53,6 @@ export default defineConfig({
   image({
     serviceEntryPoint: '@astrojs/image/sharp'
   }),
-  sitemap()
 ],
   experimental: { assets: true },
-  site: 'https://docs.awesomebible.de',
 });

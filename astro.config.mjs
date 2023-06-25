@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
 
 const site = 'https://docs.awesomebible.de/';

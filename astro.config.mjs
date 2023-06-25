@@ -26,7 +26,7 @@ export default defineConfig({
   editLink: {
     baseUrl: 'https://github.com/awesomebible/docs/edit/main/',
   },
-
+  site: 'https://docs.awesomebible.de',
     social: {
       discord: 'https://discord.awesomebible.de',
       github: 'https://github.com/awesomebible/docs',
@@ -53,6 +53,8 @@ export default defineConfig({
   }),
   image({
     serviceEntryPoint: '@astrojs/image/sharp'
-  })],
+  }),
+  sitemap()
+],
   experimental: { assets: true },
 });

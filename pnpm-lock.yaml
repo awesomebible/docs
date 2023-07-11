@@ -14,9 +14,6 @@ dependencies:
   '@fontsource-variable/inter':
     specifier: ^5.0.5
     version: 5.0.5
-  '@fontsource-variable/jetbrains-mono':
-    specifier: ^5.0.6
-    version: 5.0.6
   astro:
     specifier: ^2.8.1
     version: 2.8.1(sharp@0.32.2)
@@ -839,10 +836,6 @@ packages:
 
   /@fontsource-variable/inter@5.0.5:
     resolution: {integrity: sha512-hmj/jffr+1tabEPmvm+/b89MtbO6hd5PVbQ6HoMGTO7RMF5eD2C9UcprCgZTOF3OWh5uC21C9HZGN0O9wxe+UQ==}
-    dev: false
-
-  /@fontsource-variable/jetbrains-mono@5.0.6:
-    resolution: {integrity: sha512-EwcHm7hU8FlosfeW5RRGEB9A3w7Yg7pkF/CgMlekkkDArnbu1YYGlroZw361IG0CFkzjjjPo73vFycdcH+1pbg==}
     dev: false
 
   /@jridgewell/gen-mapping@0.3.3:

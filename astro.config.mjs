@@ -9,7 +9,6 @@ export default defineConfig({
     title: 'awesomeBible Docs',
     customCss: [
       '@fontsource-variable/inter',
-      '@fontsource-variable/jetbrains-mono',
       '/src/assets/custom-styles.css',
     ],
     head: [

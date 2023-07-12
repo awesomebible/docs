@@ -1,0 +1,4 @@
+/*
+    Permissions-Policy: interest-cohort=()
+/*.webp
+    Cache-Control: public,max-age=31536000,s-max-age=86400

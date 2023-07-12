@@ -7,6 +7,14 @@ const site = 'https://docs.awesomebible.de/';
 export default defineConfig({  
   integrations: [starlight({
     title: 'awesomeBible Docs',
+    defaultLocale: 'root',
+      locales: {
+        // English docs in `src/content/docs/en/`
+        root: {
+          label: 'Deutsch',
+          lang: 'de',
+        }
+      },
     customCss: [
       '@fontsource-variable/inter',
       '/src/assets/custom-styles.css',

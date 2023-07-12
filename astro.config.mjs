@@ -46,6 +46,10 @@ export default defineConfig({
       items: [{
         label: 'Branding',
         link: '/branding/',
+      },
+      {
+        label: 'Unsere Vision',
+        link: 'https://awesomebible.de/unsere-vision/',
       }]
     }],
   }),

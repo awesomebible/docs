@@ -7,6 +7,11 @@ const site = 'https://docs.awesomebible.de/';
 export default defineConfig({  
   integrations: [starlight({
     title: 'awesomeBible Docs',
+    logo: {
+      light: './src/assets/wordmark_black.webp',
+      dark: './src/assets/wordmark_white.webp',
+      replacesTitle: true,
+    },
     defaultLocale: 'root',
       locales: {
         // English docs in `src/content/docs/en/`

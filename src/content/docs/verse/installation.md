@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: A reference page in my new Starlight docs site.
+description: awesomeBible Verse Installationsanleitung
 ---
 
 ## Für die Installation brauchst du:

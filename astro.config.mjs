@@ -8,8 +8,8 @@ export default defineConfig({
   integrations: [starlight({
     title: 'awesomeBible Docs',
     logo: {
-      light: './src/assets/wordmark_black.svg',
-      dark: './src/assets/wordmark_white.svg',
+      light: '/src/assets/wordmark_black.svg',
+      dark: '/src/assets/wordmark_white.svg',
       replacesTitle: true,
     },
     defaultLocale: 'root',

@@ -63,6 +63,10 @@ export default defineConfig({
       {
         label: 'Unsere Vision',
         link: 'https://awesomebible.de/unsere-vision/',
+      },
+      {
+        label: 'Status',
+        link: 'https://status.awesomebible.de/',
       }]
     }],
   }),

@@ -49,10 +49,7 @@ export default defineConfig({
     }, 
     {
       label: 'my.awesomeBible',
-      items: [{
-        label: 'Übersicht',
-        link: '/myawesomebible/',
-      }]
+      autogenerate: { directory: 'myawesomebible' },
     },
     {
       label: 'awesomeBible',

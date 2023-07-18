@@ -27,7 +27,7 @@ Was es damit auf sich hat, findest du hier: https://changelog.awesomebible.de/p/
 ## Projektstruktur 🍃
 Dieses Repository einhält ein Laravel-Projekt mit Frontend und Backend.
 
-### [Bibel API](https://codeberg.org/awesomebible/bible-api)
+### [Bibel API](https://github.com/awesomebible/bible-api)
 In diesem Repository befindet sich die Bibel-API die für my.awesomeBible verwendet wird.
 
 Die Bibel-API stellt vorerst nur die [Menge-Bibel](https://de.wikipedia.org/wiki/Hermann_Menge#Die_Menge-Bibel) zur Verfügung.
@@ -45,17 +45,17 @@ Was ist deine Lieblingsschriftart?
 
 Egal was es ist: Keine Idee ist zu dumm, kein Wunsch zu wenig.
 
-Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:matrix.org) bei, schreib uns [per Email](mailto:hi@awesomebible.de) oder öffne ein [Codeberg Issue](https://codeberg.org/awesomebible/my.awesomeBible/issues/new).
+Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:matrix.org) bei oder schreib uns [per Email](mailto:hi@awesomebible.de).
 
-Wir haben auch eine Roadmap: https://codeberg.org/awesomeBible/my.awesomeBible/projects/1648
+Wir haben auch eine Roadmap: https://github.com/awesomeBible/my.awesomeBible/projects/1648
 ### Entwicklung 🛠
 #### Setup 🛠
-Für eine Anleitung wie du die Entwicklungsumgebung einrichtest, schau doch in die Dokumentation: [Setup der Entwicklungsumgebung](https://codeberg.org/awesomeBible/my.awesomeBible/wiki/Setup-der-Entwicklungsumgebung)
+Für eine Anleitung wie du die Entwicklungsumgebung einrichtest, schau doch in die Dokumentation: [Setup der Entwicklungsumgebung](/myawesomebible/setup/)
 
 ### Design 🍥
 Programmieren ist nicht dein Ding? Du designst, zeichnest oder entwirfst lieber?
 Auch dann kannst du uns helfen!
-Oft wird für ein Feature ein Mockup oder ein Design benötigt, alle Issues wo ein Design benötigt wird, sind [hier](https://codeberg.org/awesomebible/my.awesomeBible/issues?q=&type=all&state=open&labels=16018&milestone=0&assignee=0) zu finden.
+Oft wird für ein Feature ein Mockup oder ein Design benötigt, alle Issues wo ein Design benötigt wird, sind [hier](https://github.com/awesomebible/my.awesomeBible/issues?q=&type=all&state=open&labels=16018&milestone=0&assignee=0) zu finden.
 
 ### Sicherheitslücken 🔓
 

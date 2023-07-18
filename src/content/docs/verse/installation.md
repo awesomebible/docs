@@ -6,7 +6,7 @@ description: awesomeBible Verse Installationsanleitung
 ## Für die Installation brauchst du:
 
 - einen Server auf dem PHP läuft (7.4+),
-- das [neueste Verse-Release](https://codeberg.org/awesomeBible/verse/releases/latest).
+- das [neueste Verse-Release](https://github.com/awesomeBible/verse/releases/latest).
 
 ## Setup
 Nach dem herunterladen und entpacken des Releases, müssen noch ein paar Änderungen in der `ìndex.php`-Datei vornehmen:

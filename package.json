@@ -13,7 +13,7 @@
     "@astrojs/image": "^0.17.2",
     "@astrojs/starlight": "^0.1.4",
     "@fontsource-variable/inter": "^5.0.5",
-    "astro": "^2.8.5",
-    "sharp": "^0.32.3"
+    "astro": "^2.9.3",
+    "sharp": "^0.32.4"
   }
 }

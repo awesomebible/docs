@@ -10,10 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/image": "^0.17.2",
+    "@astrojs/image": "^0.17.3",
     "@astrojs/starlight": "^0.1.4",
-    "@fontsource-variable/inter": "^5.0.5",
-    "astro": "^2.9.3",
+    "@fontsource-variable/inter": "^5.0.7",
+    "astro": "^2.10.1",
     "sharp": "^0.32.4"
   }
 }

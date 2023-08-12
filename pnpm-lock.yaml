@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.7.1
     version: 0.7.1(astro@2.10.7)
   '@fontsource-variable/inter':
-    specifier: ^5.0.7
-    version: 5.0.7
+    specifier: ^5.0.8
+    version: 5.0.8
   astro:
     specifier: ^2.10.7
     version: 2.10.7(sharp@0.32.4)
@@ -833,8 +833,8 @@ packages:
     dev: false
     optional: true
 
-  /@fontsource-variable/inter@5.0.7:
-    resolution: {integrity: sha512-aOG0xPnkjV9w5Iw9maGWYyM3P2ivRKCFHkzbSVN2MAmwsMQJP3Dkr6Og1FSHoQBZjGx4SfMWTU72h+dXthND5g==}
+  /@fontsource-variable/inter@5.0.8:
+    resolution: {integrity: sha512-WkYfFNccmEIeL2fNg0mYeLWqOoB7xD8MFxFRc4IwbSP2o8ZaBt36v5aW4by4MyrgGRMNk7uNi5LbvYKq6clPjw==}
     dev: false
 
   /@jridgewell/gen-mapping@0.3.3:

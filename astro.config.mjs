@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, sharpImageService } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import image from '@astrojs/image';
 
@@ -68,7 +68,7 @@ export default defineConfig({
     }],
   }),
   image({
-    serviceEntryPoint: '@astrojs/image/sharp'
+    service: sharpImageService(),
   }),
 ],
   experimental: { assets: true },

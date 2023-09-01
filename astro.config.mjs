@@ -67,9 +67,6 @@ export default defineConfig({
       }]
     }],
   }),
-  image({
-    service: sharpImageService(),
-  }),
 ],
   experimental: { assets: true },
 });

@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/image':
-    specifier: ^0.17.3
-    version: 0.17.3(astro@2.10.15)(sharp@0.32.5)
+    specifier: ^0.18.0
+    version: 0.18.0(astro@2.10.15)(sharp@0.32.5)
   '@astrojs/starlight':
     specifier: ^0.7.3
     version: 0.7.3(astro@2.10.15)
@@ -39,11 +39,11 @@ packages:
     resolution: {integrity: sha512-o/ObKgtMzl8SlpIdzaxFnt7SATKPxu4oIP/1NL+HDJRzxfJcAkOTAb/ZKMRyULbz4q+1t2/DAebs2Z1QairkZw==}
     dev: false
 
-  /@astrojs/image@0.17.3(astro@2.10.15)(sharp@0.32.5):
-    resolution: {integrity: sha512-5xF4d4dmyjSdEeA0E2M8YS5Usf0SxPHUp4w/xAsbArQP27p6BcA+952Ay8+UJfRdT+9dUGGvRafDtjEZOkefxQ==}
+  /@astrojs/image@0.18.0(astro@2.10.15)(sharp@0.32.5):
+    resolution: {integrity: sha512-IAsECAGG5s0u7KItQMVVfhU8gAkIeIlzoSga6LymLvWvTWJacjxtnRYjct5uR03kuxIYAdjZhwQowKR1bYpwDA==}
     deprecated: '@astrojs/image is deprecated in favor of astro:assets. Please see the migration guide for more information: https://docs.astro.build/en/guides/upgrade-to/v3/\#removed-astrojsimage'
     peerDependencies:
-      astro: ^2.10.0
+      astro: ^2.10.15
       sharp: '>=0.31.0'
     peerDependenciesMeta:
       sharp:

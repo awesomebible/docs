@@ -1,6 +1,5 @@
 import { defineConfig, sharpImageService } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import image from '@astrojs/image';
 
 const site = 'https://docs.awesomebible.de/';
 // https://astro.build/config
@@ -68,5 +67,4 @@ export default defineConfig({
     }],
   }),
 ],
-  experimental: { assets: true },
 });

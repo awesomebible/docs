@@ -38,7 +38,7 @@ export default defineConfig({
     baseUrl: 'https://github.com/awesomebible/docs/edit/main/',
   },
     social: {
-      discord: 'https://discord.awesomebible.de',
+      discord: 'https://chat.awesomebible.de',
       github: 'https://github.com/awesomebible/docs',
       mastodon: 'https://youthweb.social/@awesomebible',
     },

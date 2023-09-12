@@ -58,7 +58,11 @@ export default defineConfig({
       },
       {
         label: 'Unsere Vision',
-        link: 'https://awesomebible.de/unsere-vision/',
+        link: '/unsere-vision/',
+      },
+      {
+        label: 'Nutzungsrechte',
+        link: '/lizenz/',
       },
       {
         label: 'Status',

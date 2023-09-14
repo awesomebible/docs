@@ -61,7 +61,7 @@ export default defineConfig({
         link: '/unsere-vision/',
       },
       {
-        label: 'Nutzungsrechte',
+        label: 'Nutzung unserer Texte',
         link: '/lizenz/',
       },
       {

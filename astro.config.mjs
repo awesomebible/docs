@@ -52,7 +52,13 @@ export default defineConfig({
     },
     {
       label: 'awesomeBible',
-      items: [{
+      items: [
+      {
+        label: 'awesomeBible',
+        link: 'https://awesomebible.de/',
+        badge: { text: 'Home' },
+      },
+      {
         label: 'Branding',
         link: '/branding/',
       },

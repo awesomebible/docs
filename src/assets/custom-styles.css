@@ -1,7 +1,7 @@
 :root {
     --purple-hsl: 255, 60%, 60%;
     --overlay-blurple: hsla(var(--purple-hsl), 0.2);
-    --sl-font: 'Inter', sans-serif;
+    --sl-font: 'Inter Variable', sans-serif;
   }
   
   :root[data-theme='light'] {
@@ -26,3 +26,7 @@
   [data-has-hero] .hero > img {
     filter: drop-shadow(0 0 3rem var(--overlay-blurple));
   }
+
+code {
+  font-family: "JetBrains Mono Variable", monospace !important;
+}

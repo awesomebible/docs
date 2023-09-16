@@ -16,7 +16,7 @@ Optional können noch die Dateiendung und der [MIME-Type](https://developer.mozi
 
 ```php
 # index.php
-$baseURL = "https://verse.awesomebible.de/img/"
+$baseURL = "https://verse.awesomebible.de/img/";
 $fileExtension = ".jpg";
 $fileMimeType = "image/jpg";
 $cacheRef = "cacheFile.txt";

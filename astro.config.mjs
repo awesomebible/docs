@@ -3,7 +3,9 @@ import starlight from '@astrojs/starlight';
 
 const site = 'https://docs.awesomebible.de/';
 // https://astro.build/config
-export default defineConfig({  
+export default defineConfig({
+  site: 'https://docs.awesomebible.de',
+  
   integrations: [starlight({
     title: 'awesomeBible Docs',
     logo: {

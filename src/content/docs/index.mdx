@@ -17,7 +17,7 @@ hero:
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
-import AboutAstro from '../../components/about-astro.astro';
+import ThanksBadges from '../../components/thanks-badges.astro';
 
 <CardGrid stagger>
   <Card title="Quelloffene Software" icon="pencil">
@@ -34,11 +34,4 @@ import AboutAstro from '../../components/about-astro.astro';
   </Card>
 </CardGrid>
 
-
-<AboutAstro title="Gebaut mit">
-Astro ist ein Web-Framework, das eine Komplettlösung zur Erstellung schneller Websites darstellt. Rufe deine Inhalte von überall ab und stelle sie überall bereit, alles unterstützt durch deine bevorzugten UI-Komponenten und Bibliotheken.
-
-[Mehr über Astro](https://astro.build/)
-
-[Unterstützt von Netlify](https://netlify.com)
-</AboutAstro>
+<ThanksBadges />

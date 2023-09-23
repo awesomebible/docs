@@ -1,8 +1,6 @@
 # awesomeBible Docs
 Dokumentation für einige awesomeBible Projekte
 
-[![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
-
 ## 🚀 Projektstruktur
 
 In diesem Astro + Starlight Projekt kannst du die folgenden Ordner und Dateien finden:

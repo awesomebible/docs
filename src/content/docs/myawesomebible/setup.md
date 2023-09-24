@@ -9,9 +9,10 @@ description: Setup der Entwicklungsumgebung
 my.awesomeBible ist eine [Nuxt-App](https://nuxt.com) die als Datenbank [Supabase](https://supabase.com) nutzt.
 
 ## Voraussetzungen
+Du brauchst:
 - [NodeJS](https://nodejs.org)
 - [(p)npm](https://pnpm.io/)
-- [Ein Supabase Projekt](https://supabase.com)
+- [einen Supabase Account](https://supabase.com)
 
 ## Supabase Projekt Setup
 Als erstes richten wir das Supabase Projekt ein. Im ersten Schritt wird der Name des Projekts, ein Datenbankpasswort, die Region und der Preistarif festgelegt.

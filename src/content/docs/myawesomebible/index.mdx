@@ -2,6 +2,8 @@
 title: Übersicht
 description: Eine Übersicht von my.awesomeBible
 ---
+import { LinkCard } from '@astrojs/starlight/components';
+
 > Mit my.awesomeBible beginnt eine neue Generation der Bibelarbeit. *Deine* neue Generation der Bibelarbeit.
 
 my.awesomeBible ist unser neuer Ansatz für Bibel-Apps.
@@ -25,14 +27,9 @@ Was es damit auf sich hat, findest du hier: https://changelog.awesomebible.de/p/
 
 
 ## Projektstruktur 🍃
-Dieses Repository einhält ein Laravel-Projekt mit Frontend und Backend.
+my.awesomeBible ist eine [Nuxt-App](https://code.awesomebible.de/my.awesomebible-nuxt) die [Supabase](https://supabase.com) als Backend benutzt.
 
-### [Bibel API](https://github.com/awesomebible/bible-api)
-In diesem Repository befindet sich die Bibel-API die für my.awesomeBible verwendet wird.
-
-Die Bibel-API stellt vorerst nur die [Menge-Bibel](https://de.wikipedia.org/wiki/Hermann_Menge#Die_Menge-Bibel) zur Verfügung.
-
-Die Übersetzung selbst ist gemeinfrei, deswegen sind die Dateien die von der API ausgegeben werden (``.json``-Dateien) unter der [Public Domain Mark-Lizenz](https://creativecommons.org/publicdomain/mark/1.0/deed.de) lizensiert, damit auch sie frei von Urheberrechtsschutz sind.
+Die Bibeltexte werden durch das [Open Bible Project](https://openbibleproject.github.io) als Module zur Verfügung gestellt.
 
 ## Mitmachen 🦄
 ### Vorschläge ✍
@@ -45,18 +42,22 @@ Was ist deine Lieblingsschriftart?
 
 Egal was es ist: Keine Idee ist zu dumm, kein Wunsch zu wenig.
 
-Tritt unser [Matrix-Community](https://matrix.to/#/#awesomeBible:matrix.org) bei oder schreib uns [per Email](mailto:hi@awesomebible.de).
+Tritt unser [Discord-Community](https://chat.awesomebible.de) bei oder schreib uns [per Email](mailto:hey@awesomebible.de).
 
-Wir haben auch eine Roadmap: https://github.com/awesomeBible/my.awesomeBible/projects/1648
 ### Entwicklung 🛠
-#### Setup 🛠
-Für eine Anleitung wie du die Entwicklungsumgebung einrichtest, schau doch in die Dokumentation: [Setup der Entwicklungsumgebung](/myawesomebible/setup/)
+#### Setup 🚀
+Eine Anleitung wie du loslegen kannst, findest du hier:
+<LinkCard
+	title="Setup der Entwicklungsumgebung"
+	description="Informationen darüber, wie die Texte auf awesomeBible weiterverwendet werden dürfen."
+	href="/myawesomebible/setup/"
+/>
 
 ### Design 🍥
 Programmieren ist nicht dein Ding? Du designst, zeichnest oder entwirfst lieber?
 Auch dann kannst du uns helfen!
-Oft wird für ein Feature ein Mockup oder ein Design benötigt, alle Issues wo ein Design benötigt wird, sind [hier](https://github.com/awesomebible/my.awesomeBible/issues?q=&type=all&state=open&labels=16018&milestone=0&assignee=0) zu finden.
 
+Wenn du bei dem Design von der App und einzelnen Features mithelfen willst, tritt unserem [Discord-Server](https://chat.awesomebible.de) bei. Dort werden solche Sachen besprochen.
 ### Sicherheitslücken 🔓
 
-Wenn du auf eine Sicherheitslücke gestoßen bist, melde sie bitte nicht direkt in den Issues - stattdessen schreib uns bitte eine [E-Mail](mailto:hi@awesomebible.de) an [hi@awesomebible.de](mailto:hi@awesomebible.de) (gerne auch mit [OpenPGP](https://awesomebible.de/keys/hi@awesomebible.de-pub.asc)) oder eine Nachricht an unseren [Matrix-Account](https://matrix.to/#/@awesomebible:matrix.org).
+Wenn du auf eine Sicherheitslücke gestoßen bist, melde sie bitte nicht direkt in den Issues - stattdessen schreib uns bitte eine [E-Mail](mailto:hey@awesomebible.de) (gerne auch mit [OpenPGP](https://awesomebible.de/keys/hey@awesomebible.de-pub.asc)), eine Nachricht an unseren [Matrix-Account](https://matrix.to/#/@awesomebible:matrix.org), oder eine Discord DM an `darkshark9k`.

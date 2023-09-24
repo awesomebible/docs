@@ -62,6 +62,11 @@ export default defineConfig({
         badge: { text: 'Home' },
       },
       {
+        label: 'OpenBibleProject',
+        link: 'https://openbibleproject.github.io/',
+        badge: { text: 'Neu', variant: 'note' }
+      },
+      {
         label: 'Branding',
         link: '/branding/',
       },

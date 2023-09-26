@@ -63,7 +63,7 @@ export default defineConfig({
       },
       {
         label: 'OpenBibleProject',
-        link: 'https://obp.awesomebible.de/',
+        link: 'https://obp.awesomebible.de/de/',
         badge: { text: 'Neu', variant: 'note' }
       },
       {

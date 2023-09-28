@@ -66,8 +66,8 @@ export default defineConfig({
       },
       {
         label: 'OpenBibleProject',
-        link: 'https://obp.awesomebible.de/de/',
-        badge: { text: 'Neu', variant: 'note' }
+        link: 'https://obp.awesomebible.de/',
+        badge: { text: 'New', variant: 'note' }
       },
       {
         label: 'Branding',
@@ -76,10 +76,16 @@ export default defineConfig({
       {
         label: 'Unsere Vision',
         link: '/unsere-vision/',
+        translations: {
+          en: 'Our Vision',
+          }
       },
       {
         label: 'Nutzung unserer Texte',
         link: '/lizenz/',
+        translations: {
+          en: 'Usage of our texts',
+          } 
       },
       {
         label: 'Status',

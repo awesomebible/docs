@@ -1,0 +1,59 @@
+---
+title: Javascript Library
+description: awesomebible Verse Javascript Library
+---
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+To use the Javascript library, add the following script tag to your document:
+
+```javascript
+<script src="https://cdn.jsdelivr.net/npm/@awesomebible/verse-js@1.0.0/index.js"></script>
+```
+or install the NPM package:
+
+<Tabs>
+    <TabItem label="npm">
+        ```bash
+        npm install @awesomebible/verse-js
+        ```
+    </TabItem>
+
+    <TabItem label="Yarn">
+        ```bash
+        yarn add @awesomebible/verse-js
+        ```
+    </TabItem>
+
+    <TabItem label="pnpm">
+        ```bash
+        pnpm install @awesomebible/verse-js
+        ```
+    </TabItem>
+</Tabs>
+
+Now you'll have to import the function:
+
+```javascript
+import { VerseReplace } from '@awesomebible/verse-js';
+
+```
+
+Add an image tag with the class "awb-verse" where you want the verse image to appear.
+
+```html
+<img class="awb-verse">
+```
+
+At the very bottom of the document, the `verseReplace()` function must be called:
+
+```html
+<script defer>
+    verseReplace("https://verse.awesomebible.de/img/");
+</script>
+
+```
+
+:::note
+The server from which the images are loaded can be customized by the `versePath` variable.
+The path must contain the protocol (https://), the domain and the path to the image directory.
+:::

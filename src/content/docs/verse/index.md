@@ -10,6 +10,6 @@ Verse des Tages lassen sich ganz einfach einbetten, indem als Bildquelle `https:
 
 Einzelne Bilder lassen sich über den [Versepicker](https://versepicker.awesomebible.de/) finden und dann mit dem Link einbetten.
 
-Die Bilder können auch alle auf einmal [hier](https://docs.awesomebible.de/verse/versbilder/) heruntergeladen werden um sie auf anderen Platformen hochzuladen.
+Die Bilder können auch alle auf einmal [hier](/verse/versbilder/) heruntergeladen werden um sie auf anderen Platformen hochzuladen.
 
 ![awesomeBible Verse Vorschau](../../../assets/verse_preview.png)

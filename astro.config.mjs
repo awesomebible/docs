@@ -19,6 +19,9 @@ export default defineConfig({
         root: {
           label: 'Deutsch',
           lang: 'de',
+        },
+        en: {
+          label: 'English'
         }
       },
     customCss: [

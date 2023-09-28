@@ -1,0 +1,37 @@
+---
+title: Welcome to the awesomeBible Docs
+description: Documentation for the different awesomeBible projects
+template: splash
+hero:
+  tagline: Documentation for the different awesomeBible projects
+  image:
+    file: ../../../assets/houston.webp
+  actions:
+    - text: Zu den Docs
+      link: /en/verse/
+      icon: right-arrow
+      variant: primary
+    - text: Github
+      link: https://github.com/awesomeBible
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import ThanksBadges from '../../../components/thanks-badges.astro';
+
+<CardGrid stagger>
+  <Card title="Open Source Software" icon="pencil">
+    With Open Source Software, everyone involved profits off of it. With WordPress - one of the biggest open source projects - for example, awesomeBible wouldn't exist.
+  </Card>
+  <Card title="Community" icon="rocket">
+    We develop Software as Community Projects: Everyone can contribute Code, Docs & Design - completely in the sense of the community of the children of God.
+  </Card>
+  <Card title="Transparency" icon="open-book">
+    Transparency is important to us, therefore we document every step of our journey and every detail of our projects and undertakings.
+  </Card>
+  <Card title="Read the Bible" icon="open-book">
+    Now there is only one thing left to say: Read the bible - and if you like also these docs. ;)
+  </Card>
+</CardGrid>
+
+<ThanksBadges />

@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/starlight':
-    specifier: ^0.10.2
-    version: 0.10.2(astro@3.2.0)
+    specifier: ^0.10.3
+    version: 0.10.3(astro@3.2.0)
   '@fontsource-variable/inter':
     specifier: ^5.0.8
     version: 5.0.8
@@ -103,8 +103,8 @@ packages:
       zod: 3.21.1
     dev: false
 
-  /@astrojs/starlight@0.10.2(astro@3.2.0):
-    resolution: {integrity: sha512-MQRsJlFTYMDvSlDMO5FlyOZGZI6EYoXBxMVV8+bIFyLuds+CyiE5uA16kynViHXaLZoV+iM/0cxTWN13xbZ8eQ==}
+  /@astrojs/starlight@0.10.3(astro@3.2.0):
+    resolution: {integrity: sha512-a/iHqP2nqtMOVClfCL/pndWBkTJUCGjwMZaKZDIGszmiOUtyBV4ypRe1VSQlB8N1xBZuSoj6Yg17p/c1muJnsg==}
     peerDependencies:
       astro: ^3.0.0
     dependencies:

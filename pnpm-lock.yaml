@@ -12,8 +12,8 @@ dependencies:
     specifier: ^5.0.8
     version: 5.0.8
   '@fontsource-variable/jetbrains-mono':
-    specifier: ^5.0.13
-    version: 5.0.13
+    specifier: ^5.0.15
+    version: 5.0.15
   astro:
     specifier: ^3.2.1
     version: 3.2.1
@@ -771,8 +771,8 @@ packages:
     resolution: {integrity: sha512-WkYfFNccmEIeL2fNg0mYeLWqOoB7xD8MFxFRc4IwbSP2o8ZaBt36v5aW4by4MyrgGRMNk7uNi5LbvYKq6clPjw==}
     dev: false
 
-  /@fontsource-variable/jetbrains-mono@5.0.13:
-    resolution: {integrity: sha512-btDvHGApc1ckuJxHwxvwHXxXyoP+DceK0+i8GKGDGE9wOk7WveJhFk39v96sGyhM/lJ28SC/6l03rItAcAhSjQ==}
+  /@fontsource-variable/jetbrains-mono@5.0.15:
+    resolution: {integrity: sha512-Gxo5phOnb87GfX/cLO3zgd/aqNueuAbbzgcOhDmL0HSU4ttLZZzYMTL7/qO0R13FAaU5mkRX67XXyVYZJ1MMTw==}
     dev: false
 
   /@jridgewell/gen-mapping@0.3.3:

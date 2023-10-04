@@ -75,7 +75,7 @@ export default defineConfig({
       },
       {
         label: 'Unsere Vision',
-        link: '/unsere-vision/',
+        link: '/vision/',
         translations: {
           en: 'Our Vision',
           }

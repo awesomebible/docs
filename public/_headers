@@ -1,0 +1,8 @@
+/* 
+    Permissions-Policy: interest-cohort=()
+
+/_astro/*
+    Cache-Control: public, max-age=604800, s-max-age=86400, immutable
+
+/*.svg
+    Cache-Control: public, max-age=604800, s-max-age=86400, immutable

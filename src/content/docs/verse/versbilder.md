@@ -10,9 +10,12 @@ Die Bilder sind auf Servern gehostet, die zu awesomeBible gehören. Sie werden a
 Unten kannst du einen Mirror auswählen.
 
 ## 2023
+Die Versbilder für 2023 sind sowohl als jpg- als auch als avif-Dateien verfügbar.
 
 - [GitHub](https://github.com/awesomebible/verse/releases/download/img-2023/2023.7z)
 - [awesomeBible](https://verse.awesomebible.de/releases/2023.7z)
+- [GitHub: Nur avif](https://github.com/awesomebible/verse/releases/download/img-2023/2023-avif.7z)
+- [GitHub: Nur jpg](https://github.com/awesomebible/verse/releases/download/img-2023/2023-jpg.7z)
 
 ## 2022
 

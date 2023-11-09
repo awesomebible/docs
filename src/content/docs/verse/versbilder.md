@@ -7,23 +7,26 @@ Du kannst die Versbilder für awesomeBible Verse hier herunterladen. Die Bilder 
 
 Die Bilder sind auf Servern gehostet, die zu awesomeBible gehören. Sie werden aber um die Serverlast zu reduzieren auf GitHub's CDN gespiegelt.
 
-Unten kannst du einen Mirror auswählen.
+Unten kannst du einen Download auswählen.
 
 ## 2023
-Die Versbilder für 2023 sind sowohl als jpg- als auch als avif-Dateien verfügbar.
 
-- [GitHub](https://github.com/awesomebible/verse/releases/download/img-2023/2023.7z)
 - [awesomeBible](https://verse.awesomebible.de/releases/2023.7z)
+- [GitHub](https://github.com/awesomebible/verse/releases/download/img-2023/2023.7z)
 - [GitHub: Nur avif](https://github.com/awesomebible/verse/releases/download/img-2023/2023-avif.7z)
 - [GitHub: Nur jpg](https://github.com/awesomebible/verse/releases/download/img-2023/2023-jpg.7z)
 
 ## 2022
 
-- [GitHub](https://github.com/awesomebible/verse/releases/download/img-2022/2022.zip)
-- [awesomeBible](https://verse.awesomebible.de/releases/2022.zip)
+- [awesomeBible](https://verse.awesomebible.de/releases/2022.7z)
+- [GitHub](https://github.com/awesomebible/verse/releases/download/img-2022/2022.7z)
+- [GitHub: Nur avif](https://github.com/awesomebible/verse/releases/download/img-2022/2022-avif.7z)
+- [GitHub: Nur jpg](https://github.com/awesomebible/verse/releases/download/img-2022/2022-jpg.7z)
 
 
 ## 2021
 
-- [GitHub](https://github.com/awesomebible/verse/releases/download/img-2021/2021.zip)
-- [awesomeBible](https://verse.awesomebible.de/releases/2021.zip)
+- [awesomeBible](https://verse.awesomebible.de/releases/2021.7z)
+- [GitHub](https://github.com/awesomebible/verse/releases/download/img-2021/2021.7z)
+- [GitHub: Nur avif](https://github.com/awesomebible/verse/releases/download/img-2021/2021-avif.7z)
+- [GitHub: Nur jpg](https://github.com/awesomebible/verse/releases/download/img-2021/2021-jpg.7z)

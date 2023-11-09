@@ -7,8 +7,7 @@ Du kannst die Versbilder für awesomeBible Verse hier herunterladen. Die Bilder 
 
 Die Bilder sind auf Servern gehostet, die zu awesomeBible gehören. Sie werden aber um die Serverlast zu reduzieren auf GitHub's CDN gespiegelt.
 
-Unten kannst du einen Download auswählen.
-
+Die Downloads sind jeweils als ein Zip-Archiv mit avif und jpg-Dateien und zwei seperate Archive für je nur avif und nur jpg-Dateien verfügbar. Unten kannst du einen Download auswählen.
 ## 2023
 
 - [awesomeBible](https://verse.awesomebible.de/releases/2023.7z)

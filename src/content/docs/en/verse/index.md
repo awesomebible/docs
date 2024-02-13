@@ -15,6 +15,6 @@ For some services you'll need to enter `https://verse.awesomebible.de/?.jpg`.
 
 Individual images can be found via the [Versepicker](https://versepicker.awesomebible.de/) and then embedded with the link.
 
-The images can also be downloaded all at once [here](/verse/versbilder/) to upload to other platforms.
+The images can also be downloaded all at once [here](/en/verse/versbilder/) to upload to other platforms.
 
-![awesomeBible Verse Vorschau](../../../../assets/verse_preview.png)
+![awesomeBible Verse Vorschau](../../../../assets/verse_preview_en.png)

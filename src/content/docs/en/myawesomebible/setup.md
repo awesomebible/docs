@@ -12,7 +12,7 @@ my.awesomeBible is a [Nuxt app](https://nuxt.com) that uses [Supabase](https://s
 You will need:
 - [NodeJS](https://nodejs.org)
 - [(p)npm](https://pnpm.io/)
-- [einen Supabase Account](https://supabase.com)
+- [a Supabase account](https://supabase.com)
 
 ## Supabase project setup
 The first thing we do is set up the Supabase project. The first step is to set the name of the project, a database password, the region and the price tariff.

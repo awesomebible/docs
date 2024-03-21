@@ -14,7 +14,7 @@ After downloading and unpacking the release, you need to make some changes in th
 The `$baseURL` variable must be changed to the base URL of the image directory.
 Optionally the file extension and the [MIME-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) of the images, as well as the path to the cache state file can be changed.
 
-``php
+```php
 # index.php
 $baseURL = "https://verse.awesomebible.de/img/";
 $fileExtension = ".jpg";

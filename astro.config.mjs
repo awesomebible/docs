@@ -1,97 +1,106 @@
 import { defineConfig, sharpImageService } from 'astro/config';
 import starlight from '@astrojs/starlight';
-
+import partytown from "@astrojs/partytown";
 const site = 'https://docs.awesomebible.de/';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://docs.awesomebible.de',
-  
   integrations: [starlight({
     title: 'awesomeBible Docs',
     logo: {
       light: '/src/assets/wordmark_black.svg',
       dark: '/src/assets/wordmark_white.svg',
-      replacesTitle: true,
+      replacesTitle: true
     },
     defaultLocale: 'root',
-      locales: {
-        // English docs in `src/content/docs/en/`
-        root: {
-          label: 'Deutsch',
-          lang: 'de',
+    locales: {
+      // English docs in `src/content/docs/en/`
+      root: {
+        label: 'Deutsch',
+        lang: 'de'
+      },
+      en: {
+        label: 'English'
+      }
+    },
+    customCss: ['@fontsource-variable/inter', '@fontsource-variable/jetbrains-mono', '/src/assets/custom-styles.css'],
+    head: [{
+      tag: 'meta',
+      attrs: {
+        property: 'og:image',
+        content: site + 'og.jpg?v=1'
+      }
+    }, 
+    {
+      tag: 'meta',
+      attrs: {
+        property: 'twitter:image',
+        content: site + 'og.jpg?v=1'
+      }
+    },
+      {
+        tag: 'script',
+        attrs: {
+          type: 'text/partytown',
+          src: 'https://umami.awesomebible.de/script.js',
+          'data-website-id': '5b85e605-f8f6-4a27-9dc5-a03c36316fff',
         },
-        en: {
-          label: 'English'
-        }
-      },
-    customCss: [
-      '@fontsource-variable/inter',
-      '@fontsource-variable/jetbrains-mono',
-      '/src/assets/custom-styles.css',
-    ],
-    head: [
-      {
-        tag: 'meta',
-        attrs: { property: 'og:image', content: site + 'og.jpg?v=1' },
-      },
-      {
-        tag: 'meta',
-        attrs: { property: 'twitter:image', content: site + 'og.jpg?v=1' },
       },
     ],
-
-  editLink: {
-    baseUrl: 'https://github.com/awesomebible/docs/edit/main/',
-  },
+    editLink: {
+      baseUrl: 'https://github.com/awesomebible/docs/edit/main/'
+    },
     social: {
       discord: 'https://chat.awesomebible.de',
       github: 'https://github.com/awesomebible/docs',
-      mastodon: 'https://youthweb.social/@awesomebible',
+      mastodon: 'https://youthweb.social/@awesomebible'
     },
     sidebar: [{
       label: 'Verse',
-      autogenerate: { directory: 'verse' },
-    }, 
-    {
+      autogenerate: {
+        directory: 'verse'
+      }
+    }, {
       label: 'my.awesomeBible',
-      autogenerate: { directory: 'myawesomebible' },
-    },
-    {
+      autogenerate: {
+        directory: 'myawesomebible'
+      }
+    }, {
       label: 'awesomeBible',
-      items: [
-      {
+      items: [{
         label: 'awesomeBible',
         link: 'https://awesomebible.de/',
-        badge: { text: 'Home' },
-      },
-      {
+        badge: {
+          text: 'Home'
+        }
+      }, {
         label: 'OpenBibleProject',
         link: 'https://obp.awesomebible.de/',
-        badge: { text: 'New', variant: 'note' }
-      },
-      {
+        badge: {
+          text: 'New',
+          variant: 'note'
+        }
+      }, {
         label: 'Branding',
-        link: '/branding/',
-      },
-      {
+        link: '/branding/'
+      }, {
         label: 'Unsere Vision',
         link: '/vision/',
         translations: {
-          en: 'Our Vision',
-          }
-      },
-      {
+          en: 'Our Vision'
+        }
+      }, {
         label: 'Nutzung unserer Texte',
         link: '/lizenz/',
         translations: {
-          en: 'Usage of our texts',
-          } 
-      },
-      {
+          en: 'Usage of our texts'
+        }
+      }, {
         label: 'Status',
-        link: 'https://status.awesomebible.de/',
+        link: 'https://status.awesomebible.de/'
       }]
-    }],
-  }),
-],
+    }]
+  }), 
+  partytown()]
 });

@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@astrojs/partytown": "^2.0.4",
-    "@astrojs/starlight": "^0.21.2",
+    "@astrojs/starlight": "^0.21.3",
     "@fontsource-variable/inter": "^5.0.17",
     "@fontsource-variable/jetbrains-mono": "^5.0.20",
-    "astro": "^4.5.12",
+    "astro": "^4.5.13",
     "sharp": "^0.33.3"
   },
   "devDependencies": {

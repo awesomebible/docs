@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/@lunariajs/core/config.schema.json",
+  "repository": {
+    "name": "awesomeBible/docs"
+  },
+  "files": [
+    {
+      "location": "src/content/docs/**/*.{md,mdx}",
+      "pattern": "src/content/docs/@lang/@path",
+      "type": "universal"
+    }
+  ],
+  "locales": [
+    {
+      "label": "English",
+      "lang": "en"
+    }
+  ],
+  "defaultLocale": {
+    "label": "German",
+    "lang": "de"
+  },
+  "dashboard": {
+    "site": "https://i18n.docs.awesomebible.de/"
+  }
+}

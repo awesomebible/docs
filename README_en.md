@@ -25,9 +25,6 @@ Bilder können in `src/assets/` hinzugefügt und mit relativen Links in Markdown
 
 Statische Assets, wie zum Beispiel Favicons oder Open Graph Images, sollten im `public/` Ordner gespeichert werden.
 
-##  Lokalisierung
-Wir nutzen für die Lokalisierung [Starlight's i18n support](https://starlight.astro.build/guides/i18n/) und [Lunaria](https://lunaria.dev) als i18n Dashboard. Das Dashboard für die `awesomeBible/docs` Übersetzungen ist [hier](https://i18n.docs.awesomebible.de) zu finden.
-
 ## 🧞 Befehle
 
 Alle Befehle werden vom Stammverzeichnis des Projekts aus in einem Terminal ausgeführt:

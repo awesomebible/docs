@@ -1,6 +1,5 @@
 import { defineConfig, sharpImageService } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import partytown from "@astrojs/partytown";
 const site = 'https://docs.awesomebible.de/';
 
 // https://astro.build/config
@@ -39,14 +38,6 @@ export default defineConfig({
         content: site + 'og.jpg?v=1'
       }
     },
-      {
-        tag: 'script',
-        attrs: {
-          type: 'text/partytown',
-          src: 'https://umami.awesomebible.de/script.js',
-          'data-website-id': '5b85e605-f8f6-4a27-9dc5-a03c36316fff',
-        },
-      },
     ],
     editLink: {
       baseUrl: 'https://github.com/awesomebible/docs/edit/main/'
@@ -101,6 +92,6 @@ export default defineConfig({
         link: 'https://status.awesomebible.de/'
       }]
     }]
-  }), 
-  partytown()]
+  }),
+  ]
 });

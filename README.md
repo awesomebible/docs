@@ -1,6 +1,7 @@
 # awesomeBible Docs
 Dokumentation für einige awesomeBible Projekte
 
+Read this in: [English 🇺🇸](README_EN.md)
 ## 🚀 Projektstruktur
 
 In diesem Astro + Starlight Projekt kannst du die folgenden Ordner und Dateien finden:

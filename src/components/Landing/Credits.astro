@@ -1,0 +1,37 @@
+---
+import { Image } from 'astro:assets';
+import Netlify from '../../assets/netlify.svg';
+import Button from '.././Button.astro'
+
+const { title, cta } = Astro.props;
+---
+<article class="sl-flex not-content" aria-labelledby="about-astro-heading">
+	<h2>
+		<img src="/heart.svg" alt="❤️" class="emoji"> {title}
+    </h2>
+	<a href="https://starlight.astro.build">
+		<img src="/starlight-badge.svg" alt="Built with Astro" width="240" height="40">
+	  </a>
+	  <small>&</small>
+	<a href="https://www.netlify.com">
+		<img src="/netlify-badge.svg" alt="Deploys by Netlify" />
+	</a>
+</article>
+
+<style>
+	article {
+		max-width: 40rem;
+		margin-inline: auto;
+		padding-block: 5rem;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 0.5rem;
+	}
+	article > :global(*) {
+		max-width: 50ch;
+	}
+	svg {
+		width: 15rem;
+	}
+</style>

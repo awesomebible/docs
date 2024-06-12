@@ -7,16 +7,13 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "lunaria:build": "lunaria build",
-    "lunaria:preview": "lunaria preview"
+    "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.24.1",
+    "@astrojs/starlight": "^0.24.2",
     "@fontsource-variable/inter": "^5.0.18",
     "@fontsource-variable/jetbrains-mono": "^5.0.21",
-    "@lunariajs/core": "^0.0.32",
-    "astro": "^4.10.1",
+    "astro": "^4.10.2",
     "sharp": "^0.33.4"
   },
   "devDependencies": {

@@ -1,4 +1,6 @@
 # awesomeBible Docs
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+
 Dokumentation für einige awesomeBible Projekte
 
 Read this in: [English 🇺🇸](README_EN.md)

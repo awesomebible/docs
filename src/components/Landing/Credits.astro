@@ -1,24 +1,35 @@
 ---
 import { Image } from 'astro:assets';
-import Netlify from '../../assets/netlify.svg';
-import Button from '.././Button.astro'
+import Heart from '../../assets/heart.svg'
+import Starlight from '../../assets/badges/starlight.svg';
+import Netlify from '../../assets/badges/netlify-color-accent.svg';
 
-const { title, cta } = Astro.props;
+const { title } = Astro.props;
 ---
-<article class="sl-flex not-content" aria-labelledby="about-astro-heading">
+<article class="sl-flex not-content credits" aria-labelledby="about-astro-heading">
 	<h2>
-		<img src="/heart.svg" alt="❤️" class="emoji"> {title}
+		{title}
     </h2>
 	<a href="https://starlight.astro.build">
-		<img src="/starlight-badge.svg" alt="Built with Astro" width="240" height="40">
+		<Image src={Starlight} alt="Built with Astro" width="240" height="40">
 	  </a>
 	  <small>&</small>
 	<a href="https://www.netlify.com">
-		<img src="/netlify-badge.svg" alt="Deploys by Netlify" />
+		<Image src={Netlify} alt="Deploys by Netlify" />
 	</a>
 </article>
 
 <style>
+	.credits {
+		margin: 0 auto;
+		padding: 4rem 0;
+		text-align: center;
+	}
+
+	.credits h2 {
+		font-size: var(--sl-text-2xl) !important;
+		font-weight: 400;
+	}
 	article {
 		max-width: 40rem;
 		margin-inline: auto;

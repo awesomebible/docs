@@ -24,21 +24,6 @@ export default defineConfig({
       }
     },
     customCss: ['@fontsource-variable/inter', '@fontsource-variable/jetbrains-mono', '/src/assets/custom-styles.css'],
-    head: [{
-      tag: 'meta',
-      attrs: {
-        property: 'og:image',
-        content: site + 'og.jpg?v=1'
-      }
-    }, 
-    {
-      tag: 'meta',
-      attrs: {
-        property: 'twitter:image',
-        content: site + 'og.jpg?v=1'
-      }
-    },
-    ],
     editLink: {
       baseUrl: 'https://github.com/awesomebible/docs/edit/main/'
     },
@@ -91,7 +76,11 @@ export default defineConfig({
         label: 'Status',
         link: 'https://status.awesomebible.de/'
       }]
-    }]
+    }],
+    components: {
+      // Relative path to the custom component.
+      Head: './src/components/Head.astro',
+    },
   }),
   ]
 });

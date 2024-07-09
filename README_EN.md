@@ -26,6 +26,8 @@ Images can be added to `src/assets/` and embedded with relative links in Markdow
 
 Static assets, such as favicons or Open Graph images, should be stored in the `public/` folder.
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/awesomebible/docs)  [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/awesomebible/docs) [![Open with Github.dev](https://img.shields.io/badge/Open_with-Github.dev-black?style=for-the-badge&logo=github)](https://github.dev/awesomebible/docs)
+
 ## 🧞 Commands
 
 All commands are executed from the root directory of the project in a terminal:

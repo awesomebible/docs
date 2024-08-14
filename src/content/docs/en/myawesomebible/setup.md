@@ -12,21 +12,23 @@ my.awesomeBible is a [Nuxt app](https://nuxt.com) that uses [Supabase](https://s
 You will need:
 - [NodeJS](https://nodejs.org)
 - [(p)npm](https://pnpm.io/)
-- [a Supabase account](https://supabase.com)
+- [the SurrealDB CLI](https://surrealdb.com/docs/surrealdb/installation) (optionally: [Surrealist GUI](https://surrealdb.com/docs/surrealist/installation))
 
-## Supabase project setup
-The first thing we do is set up the Supabase project. The first step is to set the name of the project, a database password, the region and the price tariff.
+## SurrealDB Setup
+The database can be imported using the [SurrealQL script](https://docs.awesomebible.de/please/replace-this-v1.surql). To do that, either open Surrealist, connect to your database and click on `Import Data`. Then choose the ``surql` file.
 
-Then the `SUPABASE_URL` and the `SUPABASE_KEY` must be entered into the `.env` file in the root directory of the project.
+![Surrealist Database view](../../../../assets/surrealist_import_data.png)
 
-For example, a `.env` file would look like this:
+If you use the CLI, you can import the file with the following command:
 
+```sh
+surreal import --conn http://localhost:8000 --user root --pass root --ns test --db test <pfad_zur_surql_datei>
 ```
-SUPABASE_URL="https://abcdefgxyz.supabase.co"
-SUPABASE_KEY="<your_key>"
-```
 
-The last thing we have to do is to activate at least Email Auth in the Supabase project under "Authentication" and then "Providers".
+// Todo: env config
+
+## Kinde Setup
+// Todo
 
 ## Nuxt Setup
 Now we can run `(p)npm install` in the folder we cloned my.awesomeBible into and then run `npm run dev` to start the dev server.

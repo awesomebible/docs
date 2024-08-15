@@ -2,6 +2,8 @@
 title: Dev Setup
 description: Setup der Entwicklungsumgebung
 ---
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
 :::note
  This installation guide is still a Work-in-Progress.
 :::
@@ -18,20 +20,20 @@ You will need:
 ## SurrealDB Setup
 To start the SurrealDB server, run the following command:
 
-<PackageManagerTabs>
-  <Fragment slot="Temporary Server">
+<Tabs>
+  <TabItem label="Temporary Server">
   ```shell
   # ram based
   surreal start memory -A --user root --pass root
   ```
-  </Fragment>
-  <Fragment slot="Persistent Server">
+  </TabItem>
+  <TabItem label="Persistent Server">
   ```shell
   # disk based server
   surreal start --log trace --user root --pass root file:mydatabase.db
   ```
-  </Fragment>
-</PackageManagerTabs>
+  </TabItem>
+</Tabs>
 
 The database can be imported using the [SurrealQL script](https://docs.awesomebible.de/please/replace-this-v1.surql). To do that, either open Surrealist, connect to your database and click on `Import Data`. Then choose the ``surql` file.
 
@@ -39,7 +41,7 @@ The database can be imported using the [SurrealQL script](https://docs.awesomebi
 
 If you use the CLI, you can import the file with the following command:
 
-```sh
+```
 surreal import --conn http://localhost:8000 --user root --pass root --ns test --db test <path_to_surql_file>
 ```
 

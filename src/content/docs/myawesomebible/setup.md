@@ -1,12 +1,12 @@
 ---
-title: Setup
+title: Dev Setup
 description: Setup der Entwicklungsumgebung
 ---
 :::note
  Die Installationsanleitung ist noch ein Work-In-Progress.
 :::
 
-my.awesomeBible ist eine [Nuxt-App](https://nuxt.com) die als Datenbank [Supabase](https://supabase.com) nutzt.
+my.awesomeBible ist eine [Nuxt-App](https://nuxt.com) die als Datenbank [SurrealDB](https://surrealdb.com) nutzt.
 
 ## Voraussetzungen
 Du brauchst:
@@ -15,6 +15,23 @@ Du brauchst:
 - [die SurrealDB CLI](https://surrealdb.com/docs/surrealdb/installation) (optional: [Surrealist GUI](https://surrealdb.com/docs/surrealist/installation))
 
 ## SurrealDB Setup
+Um den SurrealDB Server zu starten führe folgenden Befehl aus:
+
+<PackageManagerTabs>
+  <Fragment slot="Temporärer Server">
+  ```shell
+  # ram based
+  surreal start memory -A --user root --pass root
+  ```
+  </Fragment>
+  <Fragment slot="Persistenter Server">
+  ```shell
+  # disk based server
+  surreal start --log trace --user root --pass root file:mydatabase.db
+  ```
+  </Fragment>
+</PackageManagerTabs>
+
 Die Datenbank kann mithilfe des [SurrealQL Skriptes](https://docs.awesomebible.de/please/replace-this-v1.surql) eingerichtet werden. Öffne dazu Surrealist, stelle eine Verbindung zum Datenbankserver her und klicke dann auf `Import Data`. Dann kannst du mit dem Dateimanager die ``surql`` Datei auswählen.
 
 ![Surrealist Database view](../../../assets/surrealist_import_data.png)

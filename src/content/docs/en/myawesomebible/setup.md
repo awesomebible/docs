@@ -1,20 +1,38 @@
 ---
-title: Setup
+title: Dev Setup
 description: Setup der Entwicklungsumgebung
 ---
 :::note
  This installation guide is still a Work-in-Progress.
 :::
 
-my.awesomeBible is a [Nuxt app](https://nuxt.com) that uses [Supabase](https://supabase.com) as its database.
+my.awesomeBible is a [Nuxt app](https://nuxt.com) that uses [SurrealDB](https://surrealdb.com) as its database.
 
 ## Requirements
 You will need:
 - [NodeJS](https://nodejs.org)
 - [(p)npm](https://pnpm.io/)
 - [the SurrealDB CLI](https://surrealdb.com/docs/surrealdb/installation) (optionally: [Surrealist GUI](https://surrealdb.com/docs/surrealist/installation))
+- [a Kinde account](https://kinde.com)
 
 ## SurrealDB Setup
+To start the SurrealDB server, run the following command:
+
+<PackageManagerTabs>
+  <Fragment slot="Temporary Server">
+  ```shell
+  # ram based
+  surreal start memory -A --user root --pass root
+  ```
+  </Fragment>
+  <Fragment slot="Persistent Server">
+  ```shell
+  # disk based server
+  surreal start --log trace --user root --pass root file:mydatabase.db
+  ```
+  </Fragment>
+</PackageManagerTabs>
+
 The database can be imported using the [SurrealQL script](https://docs.awesomebible.de/please/replace-this-v1.surql). To do that, either open Surrealist, connect to your database and click on `Import Data`. Then choose the ``surql` file.
 
 ![Surrealist Database view](../../../../assets/surrealist_import_data.png)
@@ -22,7 +40,7 @@ The database can be imported using the [SurrealQL script](https://docs.awesomebi
 If you use the CLI, you can import the file with the following command:
 
 ```sh
-surreal import --conn http://localhost:8000 --user root --pass root --ns test --db test <pfad_zur_surql_datei>
+surreal import --conn http://localhost:8000 --user root --pass root --ns test --db test <path_to_surql_file>
 ```
 
 // Todo: env config

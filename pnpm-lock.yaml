@@ -12,8 +12,8 @@ importers:
         specifier: ^0.27.1
         version: 0.27.1(astro@4.15.4(rollup@4.21.2)(typescript@5.5.4))
       '@fontsource-variable/inter':
-        specifier: ^5.0.21
-        version: 5.0.21
+        specifier: ^5.1.0
+        version: 5.1.0
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.0.23
         version: 5.0.23
@@ -331,8 +331,8 @@ packages:
   '@expressive-code/plugin-text-markers@0.35.6':
     resolution: {integrity: sha512-/k9eWVZSCs+uEKHR++22Uu6eIbHWEciVHbIuD8frT8DlqTtHYaaiwHPncO6KFWnGDz5i/gL7oyl6XmOi/E6GVg==}
 
-  '@fontsource-variable/inter@5.0.21':
-    resolution: {integrity: sha512-1spQ5vjooBWzUSdug8njhxi0lDpIDGVV4q9Piv32X5wIati/5OvESsIxOM0kDZVWzl0uSR8kHOmsqoP8A6WqVA==}
+  '@fontsource-variable/inter@5.1.0':
+    resolution: {integrity: sha512-Wj2dUGP0vUpxRGQTXQTCNJO+aLcFcQm+gUPXfj/aS877bQkEPBPv9JvZJpwdm2vzelt8NTZ+ausKlBCJjh2XIg==}
 
   '@fontsource-variable/jetbrains-mono@5.0.23':
     resolution: {integrity: sha512-AzdFE3IqYJ9/2hFRwcqJre/+/MKZHMz2y6dRYPwfz6aC0WE3Hv/PwzCLcv3W/oGMmu/xmBL3URbkUfxjgmMhjQ==}
@@ -2249,7 +2249,7 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.35.6
 
-  '@fontsource-variable/inter@5.0.21': {}
+  '@fontsource-variable/inter@5.1.0': {}
 
   '@fontsource-variable/jetbrains-mono@5.0.23': {}
 

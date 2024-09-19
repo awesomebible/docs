@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrojs/starlight':
         specifier: ^0.28.1
-        version: 0.28.1(astro@4.15.7(rollup@4.21.3)(typescript@5.5.4))
+        version: 0.28.1(astro@4.15.8(rollup@4.21.3)(typescript@5.5.4))
       '@fontsource-variable/inter':
         specifier: ^5.1.0
         version: 5.1.0
@@ -18,11 +18,11 @@ importers:
         specifier: ^5.1.0
         version: 5.1.0
       astro:
-        specifier: ^4.15.7
-        version: 4.15.7(rollup@4.21.3)(typescript@5.5.4)
+        specifier: ^4.15.8
+        version: 4.15.8(rollup@4.21.3)(typescript@5.5.4)
       astro-og-canvas:
         specifier: ^0.5.3
-        version: 0.5.3(astro@4.15.7(rollup@4.21.3)(typescript@5.5.4))
+        version: 0.5.3(astro@4.15.8(rollup@4.21.3)(typescript@5.5.4))
       canvaskit-wasm:
         specifier: ^0.39.1
         version: 0.39.1
@@ -740,8 +740,8 @@ packages:
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
 
-  astro@4.15.7:
-    resolution: {integrity: sha512-RGZjGpLcR3jcnXA1+g56i73O77krmqs7VjpoBOfk9UVP8Js5T2YSeUBAyComOUb6vj31wEw1vgRgOEN0MzYc8w==}
+  astro@4.15.8:
+    resolution: {integrity: sha512-pdXjtRF6O1xChiPAUF32R7oVRTW7AK1/Oy/JqPNhLfbelO0l6C7cLdSEuSLektwOEnMhOVXqccetjBs7HPaoxA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1531,9 +1531,6 @@ packages:
     resolution: {integrity: sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==}
     engines: {node: '>=8'}
 
-  path-to-regexp@6.2.2:
-    resolution: {integrity: sha512-GQX3SSMokngb36+whdpRXE+3f9V8UzyAorlYvOGx87ufGHehNTn5lCxrKtLyZ4Yl/wEKnNnr98ZzOwwDZV5ogw==}
-
   periscopic@3.1.0:
     resolution: {integrity: sha512-vKiQ8RRtkl9P+r/+oefh25C3fhybptkHKCZSPlcXiJux2tJF55GnEj3BVn4A5gKfq9NWWXXrxkHBwVPUfH0opw==}
 
@@ -1974,12 +1971,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@3.1.6(astro@4.15.7(rollup@4.21.3)(typescript@5.5.4))':
+  '@astrojs/mdx@3.1.6(astro@4.15.8(rollup@4.21.3)(typescript@5.5.4))':
     dependencies:
       '@astrojs/markdown-remark': 5.2.0
       '@mdx-js/mdx': 3.0.1
       acorn: 8.12.1
-      astro: 4.15.7(rollup@4.21.3)(typescript@5.5.4)
+      astro: 4.15.8(rollup@4.21.3)(typescript@5.5.4)
       es-module-lexer: 1.5.4
       estree-util-visit: 2.0.0
       gray-matter: 4.0.3
@@ -2004,15 +2001,15 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/starlight@0.28.1(astro@4.15.7(rollup@4.21.3)(typescript@5.5.4))':
+  '@astrojs/starlight@0.28.1(astro@4.15.8(rollup@4.21.3)(typescript@5.5.4))':
     dependencies:
-      '@astrojs/mdx': 3.1.6(astro@4.15.7(rollup@4.21.3)(typescript@5.5.4))
+      '@astrojs/mdx': 3.1.6(astro@4.15.8(rollup@4.21.3)(typescript@5.5.4))
       '@astrojs/sitemap': 3.1.6
       '@pagefind/default-ui': 1.1.1
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
-      astro: 4.15.7(rollup@4.21.3)(typescript@5.5.4)
-      astro-expressive-code: 0.35.6(astro@4.15.7(rollup@4.21.3)(typescript@5.5.4))
+      astro: 4.15.8(rollup@4.21.3)(typescript@5.5.4)
+      astro-expressive-code: 0.35.6(astro@4.15.8(rollup@4.21.3)(typescript@5.5.4))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.2
@@ -2626,19 +2623,19 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.35.6(astro@4.15.7(rollup@4.21.3)(typescript@5.5.4)):
+  astro-expressive-code@0.35.6(astro@4.15.8(rollup@4.21.3)(typescript@5.5.4)):
     dependencies:
-      astro: 4.15.7(rollup@4.21.3)(typescript@5.5.4)
+      astro: 4.15.8(rollup@4.21.3)(typescript@5.5.4)
       rehype-expressive-code: 0.35.6
 
-  astro-og-canvas@0.5.3(astro@4.15.7(rollup@4.21.3)(typescript@5.5.4)):
+  astro-og-canvas@0.5.3(astro@4.15.8(rollup@4.21.3)(typescript@5.5.4)):
     dependencies:
-      astro: 4.15.7(rollup@4.21.3)(typescript@5.5.4)
+      astro: 4.15.8(rollup@4.21.3)(typescript@5.5.4)
       canvaskit-wasm: 0.39.1
       deterministic-object-hash: 2.0.2
       entities: 4.5.0
 
-  astro@4.15.7(rollup@4.21.3)(typescript@5.5.4):
+  astro@4.15.8(rollup@4.21.3)(typescript@5.5.4):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -2686,7 +2683,6 @@ snapshots:
       ora: 8.1.0
       p-limit: 6.1.0
       p-queue: 8.0.1
-      path-to-regexp: 6.2.2
       preferred-pm: 4.0.0
       prompts: 2.4.2
       rehype: 13.0.1
@@ -3897,8 +3893,6 @@ snapshots:
       entities: 4.5.0
 
   path-exists@4.0.0: {}
-
-  path-to-regexp@6.2.2: {}
 
   periscopic@3.1.0:
     dependencies:

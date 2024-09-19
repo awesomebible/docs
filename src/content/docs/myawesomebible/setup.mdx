@@ -50,10 +50,23 @@ Wenn du die CLI benutzt, kannst du die Datei mit folgendem Befehl importieren:
 surreal import --conn http://localhost:8000 --user root --pass root --ns test --db test <pfad_zur_surql_datei>
 ```
 
-// Todo: env config
+## Kinde setup
 
-## Nuxt Setup
-Jetzt können wir im Ordner in den wir my.awesomeBible geklont haben, `(p)npm install` ausführen und anschließend mit `npm run dev` den Dev-Server starten.
+## App setup
+
+Die Zugangsdaten für [Kinde auth](https://kinde.com) werden über Umgebungsvariablen konfiguriert.
+Kopiere dazu die `.env.example` Datei zu `.env` und fülle die Zugangsdaten deiner Kinde app ein.
+
+```
+NUXT_KINDE_AUTH_DOMAIN=
+NUXT_KINDE_CLIENT_ID=
+NUXT_KINDE_CLIENT_SECRET=
+NUXT_KINDE_REDIRECT_URL=
+NUXT_KINDE_LOGOUT_REDIRECT_URL=
+NUXT_KINDE_POST_LOGIN_REDIRECT_URL=
+```
+
+Jetzt können wir im Ordner in den wir my.awesomeBible geklont haben, `npm install` ausführen und anschließend mit `npm run dev` den Dev-Server starten.
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |

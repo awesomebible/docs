@@ -4,6 +4,7 @@ on:  [push, delete]
 
 jobs:
   to_gitlab:
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:                                              # <-- must use actions/checkout before mirroring!
       - uses: actions/checkout@v3

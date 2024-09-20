@@ -1,8 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import Heart from '../../assets/heart.svg'
 import Starlight from '../../assets/badges/starlight.svg';
-import Netlify from '../../assets/badges/netlify-color-accent.svg';
 
 const { title } = Astro.props;
 ---
@@ -11,12 +9,8 @@ const { title } = Astro.props;
 		{title}
     </h2>
 	<a href="https://starlight.astro.build">
-		<Image src={Starlight} alt="Built with Astro" width="240" height="40">
+		<Image src={Starlight} alt="Built with Starlight" width="240" height="40">
 	  </a>
-	  <small>&</small>
-	<a href="https://www.netlify.com">
-		<Image src={Netlify} alt="Deploys by Netlify" />
-	</a>
 </article>
 
 <style>

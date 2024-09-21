@@ -3,7 +3,7 @@ title: Javascript Library
 description: awesomebible Verse Javascript Library
 ---
 import { Tabs, TabItem } from '@astrojs/starlight/components';
-import PackageManagerTabs from '@components/tabs/PackageManagerTabs.astro'
+import { PackageManagers } from 'starlight-package-managers'
 
 To use the Javascript library, add the following script tag to your document:
 
@@ -12,27 +12,7 @@ To use the Javascript library, add the following script tag to your document:
 ```
 or install the NPM package:
 
-<PackageManagerTabs>
-  <Fragment slot="npm">
-  ```shell
-  # create a new project with npm
-  npm install @awesomebible/verse-js
-  ```
-  </Fragment>
-  <Fragment slot="pnpm">
-  ```shell
-  # create a new project with pnpm
-  pnpm install @awesomebible/verse-js
-  ```
-  </Fragment>
-  <Fragment slot="yarn">
-  ```shell
-  # create a new project with yarn
-  yarn add @awesomebible/verse-js
-  ```
-  </Fragment>
-</PackageManagerTabs>
-
+<PackageManagers pkg="@awesomebible/verse-js" />
 
 Now you'll have to import the function:
 

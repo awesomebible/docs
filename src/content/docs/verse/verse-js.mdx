@@ -3,6 +3,7 @@ title: Javascript Bibliothek
 description: awesomebible Verse Javascript Bibliothek
 ---
 import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { PackageManagers } from 'starlight-package-managers'
 
 Um die Javascript Bibliothek zu nutzen, füge folgenden Skript-Tag in dein Dokument ein
 
@@ -12,25 +13,7 @@ Um die Javascript Bibliothek zu nutzen, füge folgenden Skript-Tag in dein Dokum
 
 oder installiere das NPM-Paket:
 
-<Tabs>
-    <TabItem label="npm">
-        ```bash
-        npm install @awesomebible/verse-js
-        ```
-    </TabItem>
-
-    <TabItem label="Yarn">
-        ```bash
-        yarn add @awesomebible/verse-js
-        ```
-    </TabItem>
-
-    <TabItem label="pnpm">
-        ```bash
-        pnpm install @awesomebible/verse-js
-        ```
-    </TabItem>
-</Tabs>
+<PackageManagers pkg="@awesomebible/verse-js" />
 
 Jetzt musst du die Funktion nur noch importieren:
 ```javascript

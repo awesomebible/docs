@@ -1,5 +1,5 @@
 # awesomeBible Docs
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build) [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1ko04.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build) [![Better Stack Badge](https://status.awesomebible.de/status-badges/v1/monitor/1ko04.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 
 Dokumentation für einige awesomeBible Projekte
 

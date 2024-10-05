@@ -1,5 +1,6 @@
 import { defineConfig, sharpImageService } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightImageZoom from 'starlight-image-zoom'
 import starlightLinksValidator from 'starlight-links-validator'
 const site = 'https://docs.awesomebible.de/';
 
@@ -82,7 +83,7 @@ export default defineConfig({
       // Relative path to the custom component.
       Head: './src/components/Head.astro',
     },
-    plugins: [starlightLinksValidator()],
+    plugins: [starlightImageZoom(), starlightLinksValidator()],
   }),
   ]
 });

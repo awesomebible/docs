@@ -51,20 +51,38 @@ surreal import --conn http://localhost:8000 --user root --pass root --ns test --
 ```
 
 ## Kinde setup
+Klicke auf den Button "Add Application" auf dem Kinde Dashboard:
+
+![Kinde Dashboard](../../../assets/kinde-screenshots/1_dashboard.png)
+
+Wähle dann "Back-end web" als Application type aus.
+
+!["Add application" screen](../../../assets/kinde-screenshots/2_add_app.png)
+
+Unter Quick start, wähle Nuxt als SDK aus.
+
+![](../../../assets/kinde-screenshots/3_quickstart.png)
+
+Fülle unter *Details* die Startseiten URI, die Login URI, die Callback URLs und die Logout Weiterleitungs URLs ein.
+
+Die Login URI ist deine Domain + `/api/login`.
+
+Die Callback URL ist deine Domain + `/api/callback`.
+
+Die Logout Weiterleitungs URL ist die selbe URL wie die homepage URI.
+
+![](../../../assets/kinde-screenshots/4_callback.png)
+
+Unter dem Authentication-Tab, aktiviere Email + code und wenn gewünscht die Social connections für Discord und Google.
+
+![](../../../assets/kinde-screenshots/5_auth_providers.png)
 
 ## App setup
 
 Die Zugangsdaten für [Kinde auth](https://kinde.com) werden über Umgebungsvariablen konfiguriert.
-Kopiere dazu die `.env.example` Datei zu `.env` und fülle die Zugangsdaten deiner Kinde app ein.
+Erstelle dazu eine `.env`-Datei im Projectroot und füge die Umgebungsvariablen aus dem Kinde Dashboard ein.
 
-```
-NUXT_KINDE_AUTH_DOMAIN=
-NUXT_KINDE_CLIENT_ID=
-NUXT_KINDE_CLIENT_SECRET=
-NUXT_KINDE_REDIRECT_URL=
-NUXT_KINDE_LOGOUT_REDIRECT_URL=
-NUXT_KINDE_POST_LOGIN_REDIRECT_URL=
-```
+![](../../../assets/kinde-screenshots/6_envfile.png)
 
 Jetzt können wir im Ordner in den wir my.awesomeBible geklont haben, `npm install` ausführen und anschließend mit `npm run dev` den Dev-Server starten.
 

@@ -15,6 +15,7 @@ Du brauchst:
 - [NodeJS](https://nodejs.org)
 - [(p)npm](https://pnpm.io/)
 - [die SurrealDB CLI](https://surrealdb.com/docs/surrealdb/installation) (optional: [Surrealist GUI](https://surrealdb.com/docs/surrealist/installation))
+- [einen Kinde account](https://kinde.com)
 
 Um das Git-Repo zu klonen führe folgenden Befehl aus:
 
@@ -57,13 +58,15 @@ Klicke auf den Button "Add Application" auf dem Kinde Dashboard:
 
 Wähle dann "Back-end web" als Application type aus.
 
-!["Add application" screen](../../../assets/kinde-screenshots/2_add_app.png)
+![Eine App hinzufügen](../../../assets/kinde-screenshots/2_add_app.png)
 
 Unter Quick start, wähle Nuxt als SDK aus.
 
-![](../../../assets/kinde-screenshots/3_quickstart.png)
+![Quick Start screenshot](../../../assets/kinde-screenshots/3_quickstart.png)
 
 Fülle unter *Details* die Startseiten URI, die Login URI, die Callback URLs und die Logout Weiterleitungs URLs ein.
+
+Die Homepage URI ist die Domain, auf der du die App installiert hast.
 
 Die Login URI ist deine Domain + `/api/login`.
 
@@ -71,18 +74,19 @@ Die Callback URL ist deine Domain + `/api/callback`.
 
 Die Logout Weiterleitungs URL ist die selbe URL wie die homepage URI.
 
-![](../../../assets/kinde-screenshots/4_callback.png)
+![URL Konfiguration](../../../assets/kinde-screenshots/4_callback.png)
 
 Unter dem Authentication-Tab, aktiviere Email + code und wenn gewünscht die Social connections für Discord und Google.
+Die Tokens für Google und Discord auth kannst du jeweils in der [Google Cloud Console](https://console.cloud.google.com/apis/credentials) und dem [Discord Entwicklerportal](https://discord.com/developers) erstellen.
 
-![](../../../assets/kinde-screenshots/5_auth_providers.png)
+![Authentication Provider](../../../assets/kinde-screenshots/5_auth_providers.png)
 
 ## App setup
 
 Die Zugangsdaten für [Kinde auth](https://kinde.com) werden über Umgebungsvariablen konfiguriert.
 Erstelle dazu eine `.env`-Datei im Projectroot und füge die Umgebungsvariablen aus dem Kinde Dashboard ein.
 
-![](../../../assets/kinde-screenshots/6_envfile.png)
+![Umgebungsvariablen](../../../assets/kinde-screenshots/6_envfile.png)
 
 Jetzt können wir im Ordner in den wir my.awesomeBible geklont haben, `npm install` ausführen und anschließend mit `npm run dev` den Dev-Server starten.
 

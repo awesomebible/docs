@@ -46,6 +46,34 @@ surreal import --conn http://localhost:8000 --user root --pass root --ns test --
 ```
 
 ## Kinde setup
+Click on the "Add application" button on the Kinde Dashboard:
+
+![Kinde Dashboard](../../../../assets/kinde-screenshots/1_dashboard.png)
+
+Then, choose "Back-end web" as the application type.
+
+!["Add application" screen](../../../../assets/kinde-screenshots/2_add_app.png)
+
+Under Quick start, choose Nuxt as the SDK.
+
+![](../../../../assets/kinde-screenshots/3_quickstart.png)
+
+Under *Details*, fill in the homepage URI, the login URI, the allowed callback URLs, and the allowed logout redirect URLs.
+
+The homepage URI is the domain where you installed the app. 
+
+The login URI is your domain + `/api/login`.
+
+The Callback URL is your domain + `/api/callback`.
+
+The logout redirect URL is the same as the homepage URI.
+
+![](../../../../assets/kinde-screenshots/4_callback.png)
+
+Under the Authentication tab, enable Email + code and if you want, the social connections for Discord and Google.
+You can get the tokens for Auth in the [Google cloud console](https://console.cloud.google.com/apis/credentials) and the [Discord Developer portal](https://discord.com/developers) respectively.
+
+![](../../../../assets/kinde-screenshots/5_auth_providers.png)
 
 ## App setup
 The credentials for [Kinde auth](https://kinde.com) are configured via environment variables.

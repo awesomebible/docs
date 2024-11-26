@@ -36,8 +36,8 @@ importers:
         specifier: ^0.12.4
         version: 0.12.4(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2))
       starlight-package-managers:
-        specifier: ^0.7.0
-        version: 0.7.0(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2))
+        specifier: ^0.8.0
+        version: 0.8.0(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2))
     devDependencies:
       hast-util-from-html:
         specifier: ^2.0.3
@@ -1732,8 +1732,8 @@ packages:
       '@astrojs/starlight': '>=0.15.0'
       astro: '>=4.0.0'
 
-  starlight-package-managers@0.7.0:
-    resolution: {integrity: sha512-7T0Wd4OhtyTxr7yxplO1gt1B0Ped4dxRQ0T3uOp7qM+5UmQiyQE6PMxwmN+4hVuaVQ1zpDdZR6nQrptewS+m9g==}
+  starlight-package-managers@0.8.0:
+    resolution: {integrity: sha512-FietpigUue9fViKumtt4978F41QPYkbywk5ysZR3242pzBb0+RLfF/IHA9xjNEEYw5/ZMrcBfXRVt+yoVA1SDA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.22.0'
@@ -4228,7 +4228,7 @@ snapshots:
       picomatch: 4.0.2
       unist-util-visit: 5.0.0
 
-  starlight-package-managers@0.7.0(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)):
+  starlight-package-managers@0.8.0(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)):
     dependencies:
       '@astrojs/starlight': 0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2))
       astro: 4.16.15(rollup@4.27.4)(typescript@5.6.2)

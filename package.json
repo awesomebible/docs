@@ -10,16 +10,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.28.6",
+    "@astrojs/starlight": "^0.29.2",
     "@fontsource-variable/inter": "^5.1.0",
     "@fontsource-variable/jetbrains-mono": "^5.1.1",
-    "astro": "^4.16.15",
+    "astro": "^4.16.16",
     "astro-og-canvas": "^0.5.4",
     "canvaskit-wasm": "^0.39.1",
     "sharp": "^0.33.5",
-    "starlight-image-zoom": "^0.8.0",
-    "starlight-links-validator": "^0.12.4",
-    "starlight-package-managers": "^0.7.0"
+    "starlight-image-zoom": "^0.9.0",
+    "starlight-links-validator": "^0.13.3",
+    "starlight-package-managers": "^0.8.0"
   },
   "devDependencies": {
     "hast-util-from-html": "^2.0.3",

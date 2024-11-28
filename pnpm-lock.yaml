@@ -33,8 +33,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))
       starlight-links-validator:
-        specifier: ^0.12.4
-        version: 0.12.4(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2))
+        specifier: ^0.13.3
+        version: 0.13.3(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2))
       starlight-package-managers:
         specifier: ^0.7.0
         version: 0.7.0(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2))
@@ -1725,8 +1725,8 @@ packages:
     peerDependencies:
       '@astrojs/starlight': '>=0.22.0'
 
-  starlight-links-validator@0.12.4:
-    resolution: {integrity: sha512-4MJ/BoTpdlKxfCL/pk931TGHYf7kNt812gRyNbhnIdwubjjzUy4J6J57TBY1yXcDVizWjHpGqHrqTeK0QhbemQ==}
+  starlight-links-validator@0.13.3:
+    resolution: {integrity: sha512-bwTrEwTH9wL6OlP2rUtWrmkbQCbSa71L+n/7nVWYQ0u6k8wq020XSrcrzyni8ZSv1up0zKHm9DO0l2YoLpIF5A==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.15.0'
@@ -4214,7 +4214,7 @@ snapshots:
       unist-util-visit: 5.0.0
       unist-util-visit-parents: 6.0.1
 
-  starlight-links-validator@0.12.4(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)):
+  starlight-links-validator@0.13.3(@astrojs/starlight@0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2)):
     dependencies:
       '@astrojs/starlight': 0.28.6(astro@4.16.15(rollup@4.27.4)(typescript@5.6.2))
       '@types/picomatch': 2.3.3

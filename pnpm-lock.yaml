@@ -12,8 +12,8 @@ importers:
         specifier: ^0.30.3
         version: 0.30.3(astro@5.1.1(jiti@2.4.2)(rollup@4.29.1)(typescript@5.6.2))
       '@fontsource-variable/inter':
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.1.1
+        version: 5.1.1
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.1.1
         version: 5.1.1
@@ -410,8 +410,8 @@ packages:
   '@expressive-code/plugin-text-markers@0.38.3':
     resolution: {integrity: sha512-dPK3+BVGTbTmGQGU3Fkj3jZ3OltWUAlxetMHI6limUGCWBCucZiwoZeFM/WmqQa71GyKRzhBT+iEov6kkz2xVA==}
 
-  '@fontsource-variable/inter@5.1.0':
-    resolution: {integrity: sha512-Wj2dUGP0vUpxRGQTXQTCNJO+aLcFcQm+gUPXfj/aS877bQkEPBPv9JvZJpwdm2vzelt8NTZ+ausKlBCJjh2XIg==}
+  '@fontsource-variable/inter@5.1.1':
+    resolution: {integrity: sha512-OpXFTmiH6tHkYijMvQTycFKBLK4X+SRV6tet1m4YOUH7SzIIlMqDja+ocDtiCA72UthBH/vF+3ZtlMr2rN/wIw==}
 
   '@fontsource-variable/jetbrains-mono@5.1.1':
     resolution: {integrity: sha512-V+1aRFRvuZ66PpO30s8l/2aADKzpV9VRsO3kSZE+rTMvi4vab3cUcPHMN2z+wAvjkYJO71Yf+g3/Y6pSMmQpVQ==}
@@ -2543,7 +2543,7 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.38.3
 
-  '@fontsource-variable/inter@5.1.0': {}
+  '@fontsource-variable/inter@5.1.1': {}
 
   '@fontsource-variable/jetbrains-mono@5.1.1': {}
 

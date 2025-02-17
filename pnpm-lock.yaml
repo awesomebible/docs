@@ -21,8 +21,8 @@ importers:
         specifier: ^5.1.9
         version: 5.1.9(jiti@2.4.2)(rollup@4.31.0)(typescript@5.6.2)
       astro-og-canvas:
-        specifier: ^0.5.6
-        version: 0.5.6(astro@5.1.9(jiti@2.4.2)(rollup@4.31.0)(typescript@5.6.2))
+        specifier: ^0.7.0
+        version: 0.7.0(astro@5.1.9(jiti@2.4.2)(rollup@4.31.0)(typescript@5.6.2))
       canvaskit-wasm:
         specifier: ^0.39.1
         version: 0.39.1
@@ -671,8 +671,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
 
-  astro-og-canvas@0.5.6:
-    resolution: {integrity: sha512-w75UErZdRxYyoVnTz4IXn6T869PBrwYQEjPecWVaev9faYCHC3Uk7R47KCO3u+MSDkc8tCENz4ghVDrLImx9SA==}
+  astro-og-canvas@0.7.0:
+    resolution: {integrity: sha512-aamARDNDORPxXlPt+VJakzj4WpNUDjQqUZ06eE82pGMad4aTR/KMm8Ho12qvprgJcM8K7fgSOMg5OHa7KcX0pw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -2460,7 +2460,7 @@ snapshots:
       astro: 5.1.9(jiti@2.4.2)(rollup@4.31.0)(typescript@5.6.2)
       rehype-expressive-code: 0.40.1
 
-  astro-og-canvas@0.5.6(astro@5.1.9(jiti@2.4.2)(rollup@4.31.0)(typescript@5.6.2)):
+  astro-og-canvas@0.7.0(astro@5.1.9(jiti@2.4.2)(rollup@4.31.0)(typescript@5.6.2)):
     dependencies:
       astro: 5.1.9(jiti@2.4.2)(rollup@4.31.0)(typescript@5.6.2)
       canvaskit-wasm: 0.39.1

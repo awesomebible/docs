@@ -29,11 +29,10 @@ export default defineConfig({
     editLink: {
       baseUrl: 'https://github.com/awesomebible/docs/edit/main/'
     },
-    social: {
-      discord: 'https://chat.awesomebible.de',
-      github: 'https://github.com/awesomebible/docs',
-      mastodon: 'https://youthweb.social/@awesomebible'
-    },
+    social: [
+      { icon: 'github', label: 'GitHub', href: 'https://github.com/awesomebible/docs' },
+      { icon: 'discord', label: 'Discord', href: 'https://chat.awesomebible.de' },
+    ],
     sidebar: [{
       label: 'Verse',
       autogenerate: {
@@ -52,17 +51,12 @@ export default defineConfig({
         badge: {
           text: 'Home'
         }
-      }, {
-        label: 'OpenBibleProject',
-        link: 'https://obp.awesomebible.de/',
-        badge: {
-          text: 'New',
-          variant: 'note'
-        }
-      }, {
+      }, 
+      {
         label: 'Branding',
         link: '/branding/'
-      }, {
+      }, 
+      {
         label: 'Unsere Vision',
         link: '/vision/',
         translations: {

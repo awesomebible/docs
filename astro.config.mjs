@@ -25,7 +25,7 @@ export default defineConfig({
         label: 'English'
       }
     },
-    customCss: ['@fontsource-variable/inter', '@fontsource-variable/jetbrains-mono', '/src/assets/custom-styles.css'],
+    customCss: ['@fontsource-variable/inter', '@fontsource-variable/geist-mono', '/src/assets/custom-styles.css'],
     editLink: {
       baseUrl: 'https://github.com/awesomebible/docs/edit/main/'
     },

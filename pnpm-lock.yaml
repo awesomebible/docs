@@ -11,6 +11,9 @@ importers:
       '@astrojs/starlight':
         specifier: ^0.34.1
         version: 0.34.1(astro@5.7.10(rollup@4.40.1)(typescript@5.8.2))
+      '@fontsource-variable/geist-mono':
+        specifier: ^5.2.5
+        version: 5.2.5
       '@fontsource-variable/inter':
         specifier: ^5.2.5
         version: 5.2.5
@@ -280,6 +283,9 @@ packages:
 
   '@expressive-code/plugin-text-markers@0.41.2':
     resolution: {integrity: sha512-JFWBz2qYxxJOJkkWf96LpeolbnOqJY95TvwYc0hXIHf9oSWV0h0SY268w/5N3EtQaD9KktzDE+VIVwb9jdb3nw==}
+
+  '@fontsource-variable/geist-mono@5.2.5':
+    resolution: {integrity: sha512-zyuyDtO00SbmqU4Bo5XWzX2hE5RUxL+h2bv3P8SrmxqfqW66FU/xw5DW3xRQPqQgyEpb/Fh5FEFCpOna78dvCA==}
 
   '@fontsource-variable/inter@5.2.5':
     resolution: {integrity: sha512-TrWffUAFOnT8zroE9YmGybagoOgM/HjRqMQ8k9R0vVgXlnUh/vnpbGPAS/Caz1KIlOPnPGh6fvJbb7DHbFCncA==}
@@ -2201,6 +2207,8 @@ snapshots:
   '@expressive-code/plugin-text-markers@0.41.2':
     dependencies:
       '@expressive-code/core': 0.41.2
+
+  '@fontsource-variable/geist-mono@5.2.5': {}
 
   '@fontsource-variable/inter@5.2.5': {}
 
